@@ -14,6 +14,8 @@ The following scenario fix packages are available:
 
 **Solution:** The timetable has been updated.
 
+**Version:** 1.1
+
 > [!NOTE]
 > The scenario has a `STOP` signal aspect just prior to the Tamien stop. This signal is bugged and does not trigger a SPAD. (See below under **minimally modified**.)
 
@@ -21,3 +23,5 @@ The following scenario fix packages are available:
 **Problem:**  The timetable for the scenario is impossible. Even at the best possible legal speed, the early stops of the timetable are unachievable, which leads to a cascade effect of late stops and massively negative scores.
 
 **Solution:** The timetable has been updated. AI traffic has been updated to account for the new timing of the player's consist.
+
+**Version:** 1.1
