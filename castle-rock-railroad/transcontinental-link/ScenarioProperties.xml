@@ -12,7 +12,7 @@
 	<String/>
 	<DisplayName>
 		<Localisation-cUserLocalisedString>
-			<English d:type="cDeltaString">Transcontinental Link</English>
+			<English d:type="cDeltaString">Transcontinental Link (v2)</English>
 			<French d:type="cDeltaString"></French>
 			<Italian d:type="cDeltaString"></Italian>
 			<German d:type="cDeltaString"></German>
@@ -84,8 +84,21 @@
 			<BlueprintID d:type="cDeltaString">weather\rw_clear.xml</BlueprintID>
 		</iBlueprintLibrary-cAbsoluteBlueprintID>
 	</WeatherBlueprint>
+	<WeatherExtensionBlueprint>
+		<iBlueprintLibrary-cAbsoluteBlueprintID>
+			<BlueprintSetID>
+				<iBlueprintLibrary-cBlueprintSetID>
+					<Provider d:type="cDeltaString"></Provider>
+					<Product d:type="cDeltaString"></Product>
+				</iBlueprintLibrary-cBlueprintSetID>
+			</BlueprintSetID>
+			<BlueprintID d:type="cDeltaString"></BlueprintID>
+		</iBlueprintLibrary-cAbsoluteBlueprintID>
+	</WeatherExtensionBlueprint>
 	<Rating d:type="sInt32">1</Rating>
 	<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
+	<HasRollingStart d:type="bool">0</HasRollingStart>
+	<LoadedFromRollingStart d:type="bool">0</LoadedFromRollingStart>
 	<FrontEndDriverList>
 		<sDriverFrontEndDetails d:id="1033730568">
 			<ServiceName>
@@ -121,10 +134,10 @@
 					<BlueprintSetID>
 						<iBlueprintLibrary-cBlueprintSetID>
 							<Provider d:type="cDeltaString">Kuju</Provider>
-							<Product d:type="cDeltaString">RailSimulatorUS</Product>
+							<Product d:type="cDeltaString">RailsimulatorUS</Product>
 						</iBlueprintLibrary-cBlueprintSetID>
 					</BlueprintSetID>
-					<BlueprintID d:type="cDeltaString">railvehicles\diesel\f7\default\uprr\f7a_uprr.xml</BlueprintID>
+					<BlueprintID d:type="cDeltaString">RailVehicles\Diesel\F7\Default\UPRR\F7A_UPRR.xml</BlueprintID>
 				</iBlueprintLibrary-cAbsoluteBlueprintID>
 			</LocoBP>
 			<StartLocation>
@@ -143,7 +156,7 @@
 			</StartLocation>
 			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
 			<LocoAuthor d:type="cDeltaString">Kuju</LocoAuthor>
-			<FilePath d:type="cDeltaString">Kuju\RailSimulatorUS\railvehicles\diesel\f7\default\uprr</FilePath>
+			<FilePath d:type="cDeltaString">Kuju\RailsimulatorUS\RailVehicles\Diesel\F7\Default\UPRR</FilePath>
 			<Longitude d:type="sFloat64" d:alt_encoding="00000020C7365AC0" d:precision="string">-104.856</Longitude>
 			<Latitude d:type="sFloat64" d:alt_encoding="0000004086AF4340" d:precision="string">39.3713</Latitude>
 			<Height d:type="sFloat32" d:alt_encoding="000000A095C79D40" d:precision="string">1905.9</Height>
@@ -183,10 +196,10 @@
 					<BlueprintSetID>
 						<iBlueprintLibrary-cBlueprintSetID>
 							<Provider d:type="cDeltaString">Kuju</Provider>
-							<Product d:type="cDeltaString">RailSimulatorUS</Product>
+							<Product d:type="cDeltaString">RailsimulatorUS</Product>
 						</iBlueprintLibrary-cBlueprintSetID>
 					</BlueprintSetID>
-					<BlueprintID d:type="cDeltaString">railvehicles\diesel\sd40-2\def2\engine\sd40_2_def2.xml</BlueprintID>
+					<BlueprintID d:type="cDeltaString">RailVehicles\Diesel\SD40-2\Def2\Engine\sd40_2_Def2.xml</BlueprintID>
 				</iBlueprintLibrary-cAbsoluteBlueprintID>
 			</LocoBP>
 			<StartLocation>
@@ -205,7 +218,7 @@
 			</StartLocation>
 			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
 			<LocoAuthor d:type="cDeltaString">Kuju</LocoAuthor>
-			<FilePath d:type="cDeltaString">Kuju\RailSimulatorUS\railvehicles\diesel\sd40-2\def2\engine</FilePath>
+			<FilePath d:type="cDeltaString">Kuju\RailsimulatorUS\RailVehicles\Diesel\SD40-2\Def2\Engine</FilePath>
 			<Longitude d:type="sFloat64" d:alt_encoding="0000008059385AC0" d:precision="string">-104.88</Longitude>
 			<Latitude d:type="sFloat64" d:alt_encoding="000000A072A74340" d:precision="string">39.3082</Latitude>
 			<Height d:type="sFloat32" d:alt_encoding="000000A035B59E40" d:precision="string">1965.3</Height>
@@ -245,10 +258,10 @@
 					<BlueprintSetID>
 						<iBlueprintLibrary-cBlueprintSetID>
 							<Provider d:type="cDeltaString">Kuju</Provider>
-							<Product d:type="cDeltaString">RailSimulatorUS</Product>
+							<Product d:type="cDeltaString">RailsimulatorUS</Product>
 						</iBlueprintLibrary-cBlueprintSetID>
 					</BlueprintSetID>
-					<BlueprintID d:type="cDeltaString">railvehicles\diesel\sd40-2\black\engine\sd40_2_black.xml</BlueprintID>
+					<BlueprintID d:type="cDeltaString">RailVehicles\Diesel\SD40-2\Black\Engine\sd40_2_black.xml</BlueprintID>
 				</iBlueprintLibrary-cAbsoluteBlueprintID>
 			</LocoBP>
 			<StartLocation>
@@ -267,21 +280,32 @@
 			</StartLocation>
 			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
 			<LocoAuthor d:type="cDeltaString">Kuju</LocoAuthor>
-			<FilePath d:type="cDeltaString">Kuju\RailSimulatorUS\railvehicles\diesel\sd40-2\black\engine</FilePath>
+			<FilePath d:type="cDeltaString">Kuju\RailsimulatorUS\RailVehicles\Diesel\SD40-2\Black\Engine</FilePath>
 			<Longitude d:type="sFloat64" d:alt_encoding="000000C015375AC0" d:precision="string">-104.861</Longitude>
 			<Latitude d:type="sFloat64" d:alt_encoding="00000020FC994340" d:precision="string">39.203</Latitude>
 			<Height d:type="sFloat32" d:alt_encoding="000000608B3FA040" d:precision="string">2079.77</Height>
 			<PlayerDriver d:type="bool">0</PlayerDriver>
 		</sDriverFrontEndDetails>
 	</FrontEndDriverList>
+	<RequiredSet>
+		<iBlueprintLibrary-cBlueprintSetID d:id="322618306">
+			<Provider d:type="cDeltaString">Kuju</Provider>
+			<Product d:type="cDeltaString">RailsimulatorUS</Product>
+		</iBlueprintLibrary-cBlueprintSetID>
+	</RequiredSet>
 	<Gizmo>
 		<cOwnedEntity d:id="220421136">
 			<Component>
 				<cEditorSceneryRender d:id="221338048">
 					<DetailLevel d:type="sInt32">10</DetailLevel>
 					<Global d:type="bool">0</Global>
+					<Saved d:type="bool">1</Saved>
+					<Palette0Index d:type="sUInt8">53</Palette0Index>
+					<Palette1Index d:type="sUInt8">234</Palette1Index>
+					<Palette2Index d:type="sUInt8">252</Palette2Index>
 				</cEditorSceneryRender>
 				<cPosOri d:id="220652312">
+					<Scale d:numElements="4" d:elementType="sFloat32" d:precision="string">1.0000000 1.0000000 1.0000000 0.0000000</Scale>
 					<RFarMatrix>
 						<cFarMatrix d:id="220652324">
 							<Height d:type="sFloat32" d:alt_encoding="0000002085C69D40" d:precision="string">1905.63</Height>
@@ -336,7 +360,7 @@
 							<Product d:type="cDeltaString">RailSimulatorCore</Product>
 						</iBlueprintLibrary-cBlueprintSetID>
 					</BlueprintSetID>
-					<BlueprintID d:type="cDeltaString">editor\gizmo\scenario markers\career scenario marker.xml</BlueprintID>
+					<BlueprintID d:type="cDeltaString">Editor\Gizmo\Scenario Markers\Career Scenario Marker.xml</BlueprintID>
 				</iBlueprintLibrary-cAbsoluteBlueprintID>
 			</BlueprintID>
 			<ReskinBlueprintID>
@@ -365,7 +389,7 @@
 	<SimulationTime d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</SimulationTime>
 	<AuthoredLanguage d:type="cDeltaString">en</AuthoredLanguage>
 	<Version d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</Version>
-	<Author d:type="cDeltaString">RSC</Author>
+	<Author d:type="cDeltaString">RSC, SenorPez</Author>
 	<DispatcherVersion d:type="cDeltaString">V1</DispatcherVersion>
 	<RBlueprintSetPreLoad/>
 	<NamedEntity/>
@@ -384,7 +408,7 @@
 				</cGUID>
 			</Parent>
 			<StartScore d:type="sInt32">0</StartScore>
-			<Version d:type="sInt32">1</Version>
+			<Version d:type="sInt32">2</Version>
 			<CodeVersion d:type="sInt32">1</CodeVersion>
 			<DLC d:type="sInt32">0</DLC>
 			<StatsGroup d:type="sInt32">0</StatsGroup>
@@ -404,7 +428,7 @@
 			<EarlyMultiplierPerMinute d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</EarlyMultiplierPerMinute>
 			<MissedStopPoints d:type="sFloat32" d:alt_encoding="0000000000006940" d:precision="string">200</MissedStopPoints>
 			<LeaveEarlyPoints d:type="sFloat32" d:alt_encoding="0000000000006940" d:precision="string">200</LeaveEarlyPoints>
-			<ArrivalPoints d:type="sFloat32" d:alt_encoding="0000000000C06C40" d:precision="string">230</ArrivalPoints>
+			<ArrivalPoints d:type="sFloat32" d:alt_encoding="0000000000E07440" d:precision="string">334</ArrivalPoints>
 			<WheelslipPointsPerSec d:type="sFloat32" d:alt_encoding="0000000000001440" d:precision="string">5</WheelslipPointsPerSec>
 			<PointsPerOpError d:type="sFloat32" d:alt_encoding="0000000000004940" d:precision="string">50</PointsPerOpError>
 			<FuelUsageThreshold d:type="sFloat32" d:alt_encoding="0000000000005940" d:precision="string">100</FuelUsageThreshold>
@@ -413,12 +437,40 @@
 			<AccuracyBonus d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</AccuracyBonus>
 			<AccuracyPenalty d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</AccuracyPenalty>
 			<MaxAccuracyPenalty d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</MaxAccuracyPenalty>
+			<CarriagesPenalty d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</CarriagesPenalty>
 			<MD5 d:type="cDeltaString"></MD5>
+			<GoldMedalThreshold d:type="sUInt32">900</GoldMedalThreshold>
+			<SilverMedalThreshold d:type="sUInt32">750</SilverMedalThreshold>
+			<BronzeMedalThreshold d:type="sUInt32">500</BronzeMedalThreshold>
+			<WhistleSignPoints d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</WhistleSignPoints>
 		</cCareerRules>
 	</CareerRules>
-	<MD5 d:type="cDeltaString">CE94C1852990A96D3D2B9CF6D64D6304</MD5>
+	<MD5 d:type="cDeltaString">FB95E0368978974926E7C82FAE3BCDCD</MD5>
 	<MessageEvent/>
 	<SimpleControlsOnly d:type="bool">0</SimpleControlsOnly>
 	<ExpertControlsOnly d:type="bool">0</ExpertControlsOnly>
 	<LocksScenario/>
+	<StartDestString/>
+	<TemplateStartDestMapping/>
+	<IsTemplateGenerated d:type="bool">0</IsTemplateGenerated>
+	<TemplateScenarioGUID>
+		<cGUID>
+			<UUID>
+				<e d:type="sUInt64">0</e>
+				<e d:type="sUInt64">0</e>
+			</UUID>
+			<DevString d:type="cDeltaString">00000000-0000-0000-0000-000000000000</DevString>
+		</cGUID>
+	</TemplateScenarioGUID>
+	<WorkshopId d:type="sUInt64">0</WorkshopId>
+	<WorkshopBy d:type="sUInt64">0</WorkshopBy>
+	<WorkshopTags d:type="cDeltaString"></WorkshopTags>
+	<StartInCab d:type="bool">0</StartInCab>
+	<IsClonedDLC d:type="bool">0</IsClonedDLC>
+	<StartLongitude d:type="sFloat64" d:alt_encoding="0000000000000000" d:precision="string">0</StartLongitude>
+	<StartLatitude d:type="sFloat64" d:alt_encoding="0000000000000000" d:precision="string">0</StartLatitude>
+	<StartHeight d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</StartHeight>
+	<QuickDriveStartName d:type="cDeltaString"></QuickDriveStartName>
+	<QuickDriveEndName d:type="cDeltaString"></QuickDriveEndName>
+	<QuickDrivePlayerConsistName d:type="cDeltaString"></QuickDrivePlayerConsistName>
 </cScenarioProperties>
