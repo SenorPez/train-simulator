@@ -26,3 +26,21 @@ The following scenario fix packages are available:
 
 > [!NOTE]
 > This scenario suffers from performance issues; this issue was also present in the original scenario and has not been fixed.
+
+-----
+
+# Donner Pass Southern Pacific
+**Package Name:** `donner-pass-southern-pacific.zip`
+
+**Installation:** See `INSTALLATION.md`
+
+## 1] Donner Pass CS
+**Problem:** The timetable for the scenario is impossible to achieve without violating speed limits.
+
+**Solution:** The timetable has been updated to be achievable without any additional violations.
+
+**Known Issues:** There are two `STOP` signals present in the scenario. 
+For the first, the timetable assumes you'll stop and request permission to proceed at danger (`TAB`), as is common railroad protocol.
+For the second, as it follows a `CLEAR` signal, it's clearly malfunctioning and you can request permission to proceed at danger without stopping.
+
+**Version:** 2
