@@ -630,7 +630,7 @@
 			<WhistleSignPoints d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</WhistleSignPoints>
 		</cCareerRules>
 	</CareerRules>
-	<MD5 d:type="cDeltaString">312B058E4FA326A8AFD19CC3F24209A5</MD5>
+	<MD5 d:type="cDeltaString">D37F1D8D6BECAD20B7F450AADBA8D632</MD5>
 	<MessageEvent/>
 	<SimpleControlsOnly d:type="bool">0</SimpleControlsOnly>
 	<ExpertControlsOnly d:type="bool">0</ExpertControlsOnly>
