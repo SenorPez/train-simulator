@@ -44,3 +44,10 @@ For the first, the timetable assumes you'll stop and request permission to proce
 For the second, as it follows a `CLEAR` signal, it's clearly malfunctioning and you can request permission to proceed at danger without stopping.
 
 **Version:** 2
+
+## 2a] Getting Involved (Good Weather) CS
+**Problem:** The timetable for the scenario is impossible to achieve without violating speed limits.
+
+**Solution:** The timetable has been updated to be achievable without any additional violations. The scoring stops have also been updated to a total of 1000 points.
+
+**Version:** 2
