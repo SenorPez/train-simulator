@@ -51,3 +51,10 @@ For the second, as it follows a `CLEAR` signal, it's clearly malfunctioning and 
 **Solution:** The timetable has been updated to be achievable without any additional violations. The scoring stops have also been updated to a total of 1000 points.
 
 **Version:** 2
+
+## 2b] Powering Up (Bad Weather) CS
+**Problem:** The timetable for the scenario is impossible to achieve without violating speed limits.
+
+**Solution:** The timetable has been updated to be achievable without any additional violations. The scoring stops have also been updated to a total of 1000 points.
+
+**Version:** 2
