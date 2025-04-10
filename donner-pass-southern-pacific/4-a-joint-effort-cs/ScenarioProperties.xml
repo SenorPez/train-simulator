@@ -12,7 +12,7 @@
 	<String/>
 	<DisplayName>
 		<Localisation-cUserLocalisedString>
-			<English d:type="cDeltaString">3b] A Joint Effort (Bad Weather) CS</English>
+			<English d:type="cDeltaString">3b] A Joint Effort (Bad Weather) CS (v2)</English>
 			<French d:type="cDeltaString"></French>
 			<Italian d:type="cDeltaString"></Italian>
 			<German d:type="cDeltaString"></German>
@@ -97,6 +97,8 @@
 	</WeatherExtensionBlueprint>
 	<Rating d:type="sInt32">3</Rating>
 	<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
+	<HasRollingStart d:type="bool">0</HasRollingStart>
+	<LoadedFromRollingStart d:type="bool">0</LoadedFromRollingStart>
 	<FrontEndDriverList>
 		<sDriverFrontEndDetails d:id="1104517696">
 			<ServiceName>
@@ -448,7 +450,7 @@
 	<SimulationTime d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</SimulationTime>
 	<AuthoredLanguage d:type="cDeltaString">en</AuthoredLanguage>
 	<Version d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</Version>
-	<Author d:type="cDeltaString">RSC</Author>
+	<Author d:type="cDeltaString">RSC, SenorPez</Author>
 	<DispatcherVersion d:type="cDeltaString">V1</DispatcherVersion>
 	<RBlueprintSetPreLoad/>
 	<NamedEntity>
@@ -557,14 +559,15 @@
 			<AccuracyBonus d:type="sFloat32" d:alt_encoding="0000000000006940" d:precision="string">200</AccuracyBonus>
 			<AccuracyPenalty d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</AccuracyPenalty>
 			<MaxAccuracyPenalty d:type="sFloat32" d:alt_encoding="0000000000407F40" d:precision="string">500</MaxAccuracyPenalty>
-			<CarriagesPenalty d:type="sFloat32" d:alt_encoding="000000A04C2EED45" d:precision="string">7.22483e+028</CarriagesPenalty>
+			<CarriagesPenalty d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</CarriagesPenalty>
 			<MD5 d:type="cDeltaString"></MD5>
 			<GoldMedalThreshold d:type="sUInt32">900</GoldMedalThreshold>
 			<SilverMedalThreshold d:type="sUInt32">750</SilverMedalThreshold>
 			<BronzeMedalThreshold d:type="sUInt32">500</BronzeMedalThreshold>
+			<WhistleSignPoints d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</WhistleSignPoints>
 		</cCareerRules>
 	</CareerRules>
-	<MD5 d:type="cDeltaString">E1950D9ECC8F8A92C803AA8CC555A737</MD5>
+	<MD5 d:type="cDeltaString">EBBF8438213BDEEBED4BC0DDF0AA8E3C</MD5>
 	<MessageEvent/>
 	<SimpleControlsOnly d:type="bool">0</SimpleControlsOnly>
 	<ExpertControlsOnly d:type="bool">0</ExpertControlsOnly>
@@ -572,6 +575,15 @@
 	<StartDestString/>
 	<TemplateStartDestMapping/>
 	<IsTemplateGenerated d:type="bool">0</IsTemplateGenerated>
+	<TemplateScenarioGUID>
+		<cGUID>
+			<UUID>
+				<e d:type="sUInt64">0</e>
+				<e d:type="sUInt64">0</e>
+			</UUID>
+			<DevString d:type="cDeltaString">00000000-0000-0000-0000-000000000000</DevString>
+		</cGUID>
+	</TemplateScenarioGUID>
 	<WorkshopId d:type="sUInt64">0</WorkshopId>
 	<WorkshopBy d:type="sUInt64">0</WorkshopBy>
 	<WorkshopTags d:type="cDeltaString"></WorkshopTags>
@@ -580,4 +592,7 @@
 	<StartLongitude d:type="sFloat64" d:alt_encoding="0000000000000000" d:precision="string">0</StartLongitude>
 	<StartLatitude d:type="sFloat64" d:alt_encoding="0000000000000000" d:precision="string">0</StartLatitude>
 	<StartHeight d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</StartHeight>
+	<QuickDriveStartName d:type="cDeltaString"></QuickDriveStartName>
+	<QuickDriveEndName d:type="cDeltaString"></QuickDriveEndName>
+	<QuickDrivePlayerConsistName d:type="cDeltaString"></QuickDrivePlayerConsistName>
 </cScenarioProperties>
