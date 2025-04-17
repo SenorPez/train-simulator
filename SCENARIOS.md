@@ -25,7 +25,7 @@ The following scenario fix packages are available:
 **Version:** 2
 
 > [!NOTE]
-> This scenario suffers from performance issues; this issue was also present in the original scenario and has not been fixed.
+> This scenario suffers from performance issues; these issues were also present in the original scenario and have not been fixed.
 
 -----
 
@@ -67,4 +67,14 @@ For the second, as it follows a `CLEAR` signal, it's obviously malfunctioning an
 **Version:** 2
 
 > [!NOTE]
-> This scenario suffers from performance issues; this issue was also present in the original scenario and has not been fixed.
+> This scenario suffers from performance issues; these issues were also present in the original scenario and have not been fixed.
+
+## 3b] A Joint Effort (Bad Weather) CS
+**Problem:** The timetable for the scenario is impossible to achieve without violating speed limits.
+
+**Solution:** The timetable has been updated to be achievable without any additional violations.
+
+**Version:** 2
+
+> [!NOTE]
+> This scenario suffers from performance issues; these issues were also present in the original scenario and have not been fixed.
