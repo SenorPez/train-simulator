@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cScenarioProperties xmlns:d="http://www.kuju.com/TnT/2003/Delta" d:version="1.0" d:id="1162054592">
+	<ID>
+		<cGUID>
+			<UUID>
+				<e d:type="sUInt64">5440771619448707058</e>
+				<e d:type="sUInt64">3265203436012951939</e>
+			</UUID>
+			<DevString d:type="cDeltaString">214457f2-80f6-4b81-83d9-efaa3955502d</DevString>
+		</cGUID>
+	</ID>
+	<String/>
+	<DisplayName>
+		<Localisation-cUserLocalisedString>
+			<English d:type="cDeltaString">1] Donner Pass CS (v2)</English>
+			<French d:type="cDeltaString"></French>
+			<Italian d:type="cDeltaString"></Italian>
+			<German d:type="cDeltaString"></German>
+			<Spanish d:type="cDeltaString"></Spanish>
+			<Dutch d:type="cDeltaString"></Dutch>
+			<Polish d:type="cDeltaString"></Polish>
+			<Russian d:type="cDeltaString"></Russian>
+			<Other/>
+			<Key d:type="cDeltaString">d91abd0a-e257-41b8-9aec-eaddb4a7a899</Key>
+		</Localisation-cUserLocalisedString>
+	</DisplayName>
+	<Description>
+		<Localisation-cUserLocalisedString>
+			<English d:type="cDeltaString">Welcome to the Donner Pass. Operating a Directors Special over the central portion, visit the sights and history of many of the iconic features along this route.</English>
+			<French d:type="cDeltaString"></French>
+			<Italian d:type="cDeltaString"></Italian>
+			<German d:type="cDeltaString"></German>
+			<Spanish d:type="cDeltaString"></Spanish>
+			<Dutch d:type="cDeltaString"></Dutch>
+			<Polish d:type="cDeltaString"></Polish>
+			<Russian d:type="cDeltaString"></Russian>
+			<Other/>
+			<Key d:type="cDeltaString">a6e96c60-46c3-48d0-81ee-1895016537e5</Key>
+		</Localisation-cUserLocalisedString>
+	</Description>
+	<Briefing>
+		<Localisation-cUserLocalisedString>
+			<English d:type="cDeltaString">Operating out of Bowman, run this service upto nearby Colfax, before heading on up and over the summit at Norden, and on to Truckee on the eastern slopes.</English>
+			<French d:type="cDeltaString"></French>
+			<Italian d:type="cDeltaString"></Italian>
+			<German d:type="cDeltaString"></German>
+			<Spanish d:type="cDeltaString"></Spanish>
+			<Dutch d:type="cDeltaString"></Dutch>
+			<Polish d:type="cDeltaString"></Polish>
+			<Russian d:type="cDeltaString"></Russian>
+			<Other/>
+			<Key d:type="cDeltaString">b31b5fc4-3a44-4d0a-a8c3-18f045f99f55</Key>
+		</Localisation-cUserLocalisedString>
+	</Briefing>
+	<StartLocation>
+		<Localisation-cUserLocalisedString>
+			<English d:type="cDeltaString">Bowman Loops</English>
+			<French d:type="cDeltaString"></French>
+			<Italian d:type="cDeltaString"></Italian>
+			<German d:type="cDeltaString"></German>
+			<Spanish d:type="cDeltaString"></Spanish>
+			<Dutch d:type="cDeltaString"></Dutch>
+			<Polish d:type="cDeltaString"></Polish>
+			<Russian d:type="cDeltaString"></Russian>
+			<Other/>
+			<Key d:type="cDeltaString">d957d673-7667-417f-bf11-ab5c0524114e</Key>
+		</Localisation-cUserLocalisedString>
+	</StartLocation>
+	<ScenarioClass d:type="cDeltaString">eCareerScenarioClass</ScenarioClass>
+	<StartTime d:type="sFloat32" d:alt_encoding="000000000094E140" d:precision="string">36000</StartTime>
+	<DurationMins d:type="sInt32">215</DurationMins>
+	<StartDD d:type="sInt32">24</StartDD>
+	<StartMM d:type="sInt32">6</StartMM>
+	<StartYYYY d:type="sInt32">1990</StartYYYY>
+	<Season d:type="cDeltaString">SEASON_SUMMER</Season>
+	<WeatherBlueprint>
+		<iBlueprintLibrary-cAbsoluteBlueprintID>
+			<BlueprintSetID>
+				<iBlueprintLibrary-cBlueprintSetID>
+					<Provider d:type="cDeltaString">RSC</Provider>
+					<Product d:type="cDeltaString">DonnerPass</Product>
+				</iBlueprintLibrary-cBlueprintSetID>
+			</BlueprintSetID>
+			<BlueprintID d:type="cDeltaString">weather\cloudy.xml</BlueprintID>
+		</iBlueprintLibrary-cAbsoluteBlueprintID>
+	</WeatherBlueprint>
+	<WeatherExtensionBlueprint>
+		<iBlueprintLibrary-cAbsoluteBlueprintID>
+			<BlueprintSetID>
+				<iBlueprintLibrary-cBlueprintSetID>
+					<Provider d:type="cDeltaString"></Provider>
+					<Product d:type="cDeltaString"></Product>
+				</iBlueprintLibrary-cBlueprintSetID>
+			</BlueprintSetID>
+			<BlueprintID d:type="cDeltaString"></BlueprintID>
+		</iBlueprintLibrary-cAbsoluteBlueprintID>
+	</WeatherExtensionBlueprint>
+	<Rating d:type="sInt32">2</Rating>
+	<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
+	<HasRollingStart d:type="bool">0</HasRollingStart>
+	<LoadedFromRollingStart d:type="bool">0</LoadedFromRollingStart>
+	<FrontEndDriverList>
+		<sDriverFrontEndDetails d:id="1861066336">
+			<ServiceName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">SRRVM 01</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">671dc923-3f56-4b10-9e70-d4d2b3bb28fb</Key>
+				</Localisation-cUserLocalisedString>
+			</ServiceName>
+			<LocoName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">EMD SD40T-2 Southern Pacific</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">RS_TXT_SD40T_SP</Key>
+				</Localisation-cUserLocalisedString>
+			</LocoName>
+			<LocoBP>
+				<iBlueprintLibrary-cAbsoluteBlueprintID>
+					<BlueprintSetID>
+						<iBlueprintLibrary-cBlueprintSetID>
+							<Provider d:type="cDeltaString">RSC</Provider>
+							<Product d:type="cDeltaString">DonnerPass</Product>
+						</iBlueprintLibrary-cBlueprintSetID>
+					</BlueprintSetID>
+					<BlueprintID d:type="cDeltaString">RailVehicles\Diesel\SD40T-2\Default\Engine\sd40T_2_sp.xml</BlueprintID>
+				</iBlueprintLibrary-cAbsoluteBlueprintID>
+			</LocoBP>
+			<StartLocation>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString"></English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">022d2873-75ea-4f21-8347-afe76f210549</Key>
+				</Localisation-cUserLocalisedString>
+			</StartLocation>
+			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
+			<LocoAuthor d:type="cDeltaString">RSC</LocoAuthor>
+			<FilePath d:type="cDeltaString">RSC\DonnerPass\RailVehicles\Diesel\SD40T-2\Default\Engine</FilePath>
+			<Longitude d:type="sFloat64" d:alt_encoding="D34D621058415EC0" d:precision="string">-121.021</Longitude>
+			<Latitude d:type="sFloat64" d:alt_encoding="A52C431CEB7A4340" d:precision="string">38.9603</Latitude>
+			<Height d:type="sFloat32" d:alt_encoding="00000020D9D67F40" d:precision="string">509.428</Height>
+			<PlayerDriver d:type="bool">0</PlayerDriver>
+		</sDriverFrontEndDetails>
+		<sDriverFrontEndDetails d:id="1861066632">
+			<ServiceName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">SRRVM 03</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">e0b1e3ad-080a-471e-a9d7-aa327510a1e9</Key>
+				</Localisation-cUserLocalisedString>
+			</ServiceName>
+			<LocoName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">EMD SD40-2 Southern Pacific</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">RS_TXT_SD40_SP</Key>
+				</Localisation-cUserLocalisedString>
+			</LocoName>
+			<LocoBP>
+				<iBlueprintLibrary-cAbsoluteBlueprintID>
+					<BlueprintSetID>
+						<iBlueprintLibrary-cBlueprintSetID>
+							<Provider d:type="cDeltaString">RSC</Provider>
+							<Product d:type="cDeltaString">DonnerPass</Product>
+						</iBlueprintLibrary-cBlueprintSetID>
+					</BlueprintSetID>
+					<BlueprintID d:type="cDeltaString">RailVehicles\Diesel\SD40-2\Default\Engine\sd40_2_sp.xml</BlueprintID>
+				</iBlueprintLibrary-cAbsoluteBlueprintID>
+			</LocoBP>
+			<StartLocation>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString"></English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">54c7177a-33c3-463a-8cc5-4c765822966f</Key>
+				</Localisation-cUserLocalisedString>
+			</StartLocation>
+			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
+			<LocoAuthor d:type="cDeltaString">RSC</LocoAuthor>
+			<FilePath d:type="cDeltaString">RSC\DonnerPass\RailVehicles\Diesel\SD40-2\Default\Engine</FilePath>
+			<Longitude d:type="sFloat64" d:alt_encoding="BC74931804365EC0" d:precision="string">-120.844</Longitude>
+			<Latitude d:type="sFloat64" d:alt_encoding="B98D06F016984340" d:precision="string">39.1882</Latitude>
+			<Height d:type="sFloat32" d:alt_encoding="000000A047F08E40" d:precision="string">990.035</Height>
+			<PlayerDriver d:type="bool">0</PlayerDriver>
+		</sDriverFrontEndDetails>
+		<sDriverFrontEndDetails d:id="1861067224">
+			<ServiceName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">SRRVM 05</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">765f8b4e-90da-4c1f-8a9e-89b4cea33e29</Key>
+				</Localisation-cUserLocalisedString>
+			</ServiceName>
+			<LocoName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">EMD SD40-2 Southern Pacific</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">RS_TXT_SD40_SP</Key>
+				</Localisation-cUserLocalisedString>
+			</LocoName>
+			<LocoBP>
+				<iBlueprintLibrary-cAbsoluteBlueprintID>
+					<BlueprintSetID>
+						<iBlueprintLibrary-cBlueprintSetID>
+							<Provider d:type="cDeltaString">RSC</Provider>
+							<Product d:type="cDeltaString">DonnerPass</Product>
+						</iBlueprintLibrary-cBlueprintSetID>
+					</BlueprintSetID>
+					<BlueprintID d:type="cDeltaString">RailVehicles\Diesel\SD40-2\Default\Engine\sd40_2_sp.xml</BlueprintID>
+				</iBlueprintLibrary-cAbsoluteBlueprintID>
+			</LocoBP>
+			<StartLocation>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString"></English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">7e178d4b-57f1-4232-818d-c7756d065020</Key>
+				</Localisation-cUserLocalisedString>
+			</StartLocation>
+			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
+			<LocoAuthor d:type="cDeltaString">RSC</LocoAuthor>
+			<FilePath d:type="cDeltaString">RSC\DonnerPass\RailVehicles\Diesel\SD40-2\Default\Engine</FilePath>
+			<Longitude d:type="sFloat64" d:alt_encoding="736891ED7C0F5EC0" d:precision="string">-120.242</Longitude>
+			<Latitude d:type="sFloat64" d:alt_encoding="3A92CB7F48A74340" d:precision="string">39.3069</Latitude>
+			<Height d:type="sFloat32" d:alt_encoding="0000002085059D40" d:precision="string">1857.38</Height>
+			<PlayerDriver d:type="bool">0</PlayerDriver>
+		</sDriverFrontEndDetails>
+		<sDriverFrontEndDetails d:id="1861067520">
+			<ServiceName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">SRRVU 04</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">58302096-74d5-40bb-8643-0e2293c56f80</Key>
+				</Localisation-cUserLocalisedString>
+			</ServiceName>
+			<LocoName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">EMD SD40T-2 Southern Pacific</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">RS_TXT_SD40T_SP</Key>
+				</Localisation-cUserLocalisedString>
+			</LocoName>
+			<LocoBP>
+				<iBlueprintLibrary-cAbsoluteBlueprintID>
+					<BlueprintSetID>
+						<iBlueprintLibrary-cBlueprintSetID>
+							<Provider d:type="cDeltaString">RSC</Provider>
+							<Product d:type="cDeltaString">DonnerPass</Product>
+						</iBlueprintLibrary-cBlueprintSetID>
+					</BlueprintSetID>
+					<BlueprintID d:type="cDeltaString">RailVehicles\Diesel\SD40T-2\Default\Engine\sd40T_2_sp.xml</BlueprintID>
+				</iBlueprintLibrary-cAbsoluteBlueprintID>
+			</LocoBP>
+			<StartLocation>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString"></English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">0ad09b42-b46e-4fdd-a628-017ab8967316</Key>
+				</Localisation-cUserLocalisedString>
+			</StartLocation>
+			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
+			<LocoAuthor d:type="cDeltaString">RSC</LocoAuthor>
+			<FilePath d:type="cDeltaString">RSC\DonnerPass\RailVehicles\Diesel\SD40T-2\Default\Engine</FilePath>
+			<Longitude d:type="sFloat64" d:alt_encoding="068195438B245EC0" d:precision="string">-120.571</Longitude>
+			<Latitude d:type="sFloat64" d:alt_encoding="FE65F7E461A94340" d:precision="string">39.3233</Latitude>
+			<Height d:type="sFloat32" d:alt_encoding="000000C01E109B40" d:precision="string">1732.03</Height>
+			<PlayerDriver d:type="bool">0</PlayerDriver>
+		</sDriverFrontEndDetails>
+		<sDriverFrontEndDetails d:id="1861067816">
+			<ServiceName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">SRRVU 02</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">1d76d4d7-5d76-4bad-bd87-c19fc7c04331</Key>
+				</Localisation-cUserLocalisedString>
+			</ServiceName>
+			<LocoName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">EMD GP9 DP Southern Pacific</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">RS_TXT_GP9_SP1</Key>
+				</Localisation-cUserLocalisedString>
+			</LocoName>
+			<LocoBP>
+				<iBlueprintLibrary-cAbsoluteBlueprintID>
+					<BlueprintSetID>
+						<iBlueprintLibrary-cBlueprintSetID>
+							<Provider d:type="cDeltaString">RSC</Provider>
+							<Product d:type="cDeltaString">DonnerPass</Product>
+						</iBlueprintLibrary-cBlueprintSetID>
+					</BlueprintSetID>
+					<BlueprintID d:type="cDeltaString">RailVehicles\Diesel\GP9\Default\Engine\GP9_SP1.xml</BlueprintID>
+				</iBlueprintLibrary-cAbsoluteBlueprintID>
+			</LocoBP>
+			<StartLocation>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">Colfax Main Track 1</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">e7fc6d9a-53b4-4ea0-bd9b-1e0eabaf4be7</Key>
+				</Localisation-cUserLocalisedString>
+			</StartLocation>
+			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
+			<LocoAuthor d:type="cDeltaString">RSC</LocoAuthor>
+			<FilePath d:type="cDeltaString">RSC\DonnerPass\RailVehicles\Diesel\GP9\Default\Engine</FilePath>
+			<Longitude d:type="sFloat64" d:alt_encoding="A245B6F3FD3C5EC0" d:precision="string">-120.953</Longitude>
+			<Latitude d:type="sFloat64" d:alt_encoding="F7E461A1D68C4340" d:precision="string">39.1003</Latitude>
+			<Height d:type="sFloat32" d:alt_encoding="00000080E94B8640" d:precision="string">713.489</Height>
+			<PlayerDriver d:type="bool">0</PlayerDriver>
+		</sDriverFrontEndDetails>
+		<sDriverFrontEndDetails d:id="1861068112">
+			<ServiceName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">Director Special</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">ef2a1936-dd16-4069-9773-1a000d3590ff</Key>
+				</Localisation-cUserLocalisedString>
+			</ServiceName>
+			<LocoName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">EMD GP9 DP Southern Pacific</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">RS_TXT_GP9_SP1</Key>
+				</Localisation-cUserLocalisedString>
+			</LocoName>
+			<LocoBP>
+				<iBlueprintLibrary-cAbsoluteBlueprintID>
+					<BlueprintSetID>
+						<iBlueprintLibrary-cBlueprintSetID>
+							<Provider d:type="cDeltaString">RSC</Provider>
+							<Product d:type="cDeltaString">DonnerPass</Product>
+						</iBlueprintLibrary-cBlueprintSetID>
+					</BlueprintSetID>
+					<BlueprintID d:type="cDeltaString">RailVehicles\Diesel\GP9\Default\Engine\GP9_SP1.xml</BlueprintID>
+				</iBlueprintLibrary-cAbsoluteBlueprintID>
+			</LocoBP>
+			<StartLocation>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">Bowman Track 2 Loop</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">738e7956-9063-43f7-981f-241941e8f5ca</Key>
+				</Localisation-cUserLocalisedString>
+			</StartLocation>
+			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
+			<LocoAuthor d:type="cDeltaString">RSC</LocoAuthor>
+			<FilePath d:type="cDeltaString">RSC\DonnerPass\RailVehicles\Diesel\GP9\Default\Engine</FilePath>
+			<Longitude d:type="sFloat64" d:alt_encoding="986E1283C0425EC0" d:precision="string">-121.043</Longitude>
+			<Latitude d:type="sFloat64" d:alt_encoding="D42B6519E2784340" d:precision="string">38.9444</Latitude>
+			<Height d:type="sFloat32" d:alt_encoding="000000C072C27D40" d:precision="string">476.153</Height>
+			<PlayerDriver d:type="bool">1</PlayerDriver>
+		</sDriverFrontEndDetails>
+		<sDriverFrontEndDetails d:id="1861068408">
+			<ServiceName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">TYCXTM 06</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">a9271f94-e29f-401f-ac71-2fb4ad3d7526</Key>
+				</Localisation-cUserLocalisedString>
+			</ServiceName>
+			<LocoName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">EMD SD40T-2 Southern Pacific</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">RS_TXT_SD40T_SP</Key>
+				</Localisation-cUserLocalisedString>
+			</LocoName>
+			<LocoBP>
+				<iBlueprintLibrary-cAbsoluteBlueprintID>
+					<BlueprintSetID>
+						<iBlueprintLibrary-cBlueprintSetID>
+							<Provider d:type="cDeltaString">RSC</Provider>
+							<Product d:type="cDeltaString">DonnerPass</Product>
+						</iBlueprintLibrary-cBlueprintSetID>
+					</BlueprintSetID>
+					<BlueprintID d:type="cDeltaString">RailVehicles\Diesel\SD40T-2\Default\Engine\sd40T_2_sp.xml</BlueprintID>
+				</iBlueprintLibrary-cAbsoluteBlueprintID>
+			</LocoBP>
+			<StartLocation>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">Truckee Yard 02</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">d40e4d33-d3fa-4da7-a6b5-311572adf5f4</Key>
+				</Localisation-cUserLocalisedString>
+			</StartLocation>
+			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
+			<LocoAuthor d:type="cDeltaString">RSC</LocoAuthor>
+			<FilePath d:type="cDeltaString">RSC\DonnerPass\RailVehicles\Diesel\SD40T-2\Default\Engine</FilePath>
+			<Longitude d:type="sFloat64" d:alt_encoding="08AC1C5A640B5EC0" d:precision="string">-120.178</Longitude>
+			<Latitude d:type="sFloat64" d:alt_encoding="52499D8026AA4340" d:precision="string">39.3293</Latitude>
+			<Height d:type="sFloat32" d:alt_encoding="00000080C2939B40" d:precision="string">1764.94</Height>
+			<PlayerDriver d:type="bool">0</PlayerDriver>
+		</sDriverFrontEndDetails>
+	</FrontEndDriverList>
+	<RequiredSet>
+		<iBlueprintLibrary-cBlueprintSetID d:id="1609634784">
+			<Provider d:type="cDeltaString">Kuju</Provider>
+			<Product d:type="cDeltaString">RailsimulatorUS</Product>
+		</iBlueprintLibrary-cBlueprintSetID>
+		<iBlueprintLibrary-cBlueprintSetID d:id="1609634792">
+			<Provider d:type="cDeltaString">RSC</Provider>
+			<Product d:type="cDeltaString">DonnerPass</Product>
+		</iBlueprintLibrary-cBlueprintSetID>
+	</RequiredSet>
+	<Gizmo>
+		<cOwnedEntity d:id="1103123928">
+			<Component>
+				<cEditorSceneryRender d:id="1205602800">
+					<DetailLevel d:type="sInt32">10</DetailLevel>
+					<Global d:type="bool">0</Global>
+					<Saved d:type="bool">1</Saved>
+					<Palette0Index d:type="sUInt8">247</Palette0Index>
+					<Palette1Index d:type="sUInt8">70</Palette1Index>
+					<Palette2Index d:type="sUInt8">103</Palette2Index>
+				</cEditorSceneryRender>
+				<cPosOri d:id="-2082104296">
+					<RFarMatrix>
+						<cFarMatrix d:id="-2082104272">
+							<Height d:type="sFloat32" d:alt_encoding="00000000FEE07D40" d:precision="string">478.062</Height>
+							<RXAxis d:numElements="4" d:elementType="sFloat32" d:precision="string">-0.6586763 0.0000000 0.7524265 0.0000000</RXAxis>
+							<RYAxis d:numElements="4" d:elementType="sFloat32" d:precision="string">0.0000000 1.0000000 0.0000000 0.0000000</RYAxis>
+							<RZAxis d:numElements="4" d:elementType="sFloat32" d:precision="string">-0.7524265 0.0000000 -0.6586763 0.0000000</RZAxis>
+							<RFarPosition>
+								<cFarVector2 d:id="-2082104220">
+									<X>
+										<cFarCoordinate>
+											<RouteCoordinate>
+												<cRouteCoordinate>
+													<Distance d:type="sInt32">-58</Distance>
+												</cRouteCoordinate>
+											</RouteCoordinate>
+											<TileCoordinate>
+												<cTileCoordinate>
+													<Distance d:type="sFloat32" d:alt_encoding="0000008014F48E40" d:precision="string">990.51</Distance>
+												</cTileCoordinate>
+											</TileCoordinate>
+										</cFarCoordinate>
+									</X>
+									<Z>
+										<cFarCoordinate>
+											<RouteCoordinate>
+												<cRouteCoordinate>
+													<Distance d:type="sInt32">-42</Distance>
+												</cRouteCoordinate>
+											</RouteCoordinate>
+											<TileCoordinate>
+												<cTileCoordinate>
+													<Distance d:type="sFloat32" d:alt_encoding="00000020DB556C40" d:precision="string">226.683</Distance>
+												</cTileCoordinate>
+											</TileCoordinate>
+										</cFarCoordinate>
+									</Z>
+								</cFarVector2>
+							</RFarPosition>
+						</cFarMatrix>
+					</RFarMatrix>
+				</cPosOri>
+				<cScriptComponent d:id="1100206088">
+					<DebugDisplay d:type="bool">1</DebugDisplay>
+					<StateName d:type="cDeltaString"></StateName>
+				</cScriptComponent>
+			</Component>
+			<BlueprintID>
+				<iBlueprintLibrary-cAbsoluteBlueprintID>
+					<BlueprintSetID>
+						<iBlueprintLibrary-cBlueprintSetID>
+							<Provider d:type="cDeltaString">Kuju</Provider>
+							<Product d:type="cDeltaString">RailSimulatorCore</Product>
+						</iBlueprintLibrary-cBlueprintSetID>
+					</BlueprintSetID>
+					<BlueprintID d:type="cDeltaString">Editor\Gizmo\Scenario Markers\Career Scenario Marker.xml</BlueprintID>
+				</iBlueprintLibrary-cAbsoluteBlueprintID>
+			</BlueprintID>
+			<ReskinBlueprintID>
+				<iBlueprintLibrary-cAbsoluteBlueprintID>
+					<BlueprintSetID>
+						<iBlueprintLibrary-cBlueprintSetID>
+							<Provider d:type="cDeltaString"></Provider>
+							<Product d:type="cDeltaString"></Product>
+						</iBlueprintLibrary-cBlueprintSetID>
+					</BlueprintSetID>
+					<BlueprintID d:type="cDeltaString"></BlueprintID>
+				</iBlueprintLibrary-cAbsoluteBlueprintID>
+			</ReskinBlueprintID>
+			<Name d:type="cDeltaString">Career Scenario Marker</Name>
+			<EntityID>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4857671639420456637</e>
+						<e d:type="sUInt64">8821317940197306004</e>
+					</UUID>
+					<DevString d:type="cDeltaString">77254ebd-ea9e-4369-94ae-3de4ed9d6b7a</DevString>
+				</cGUID>
+			</EntityID>
+		</cOwnedEntity>
+	</Gizmo>
+	<SimulationTime d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</SimulationTime>
+	<AuthoredLanguage d:type="cDeltaString">en</AuthoredLanguage>
+	<Version d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</Version>
+	<Author d:type="cDeltaString">RSC, SenorPez</Author>
+	<DispatcherVersion d:type="cDeltaString">V1</DispatcherVersion>
+	<RBlueprintSetPreLoad/>
+	<NamedEntity>
+		<cScenarioProperties-cGuidToNameMapping d:id="1228926800">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4917185794162160837</e>
+						<e d:type="sUInt64">14911330333499188096</e>
+					</UUID>
+					<DevString d:type="cDeltaString">6ba1f4c5-5a6d-443d-80e3-b948efafefce</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Auburn Highway Viaduct</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="1228927480">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5585942620975116088</e>
+						<e d:type="sUInt64">17562978515929108358</e>
+					</UUID>
+					<DevString d:type="cDeltaString">daefaf38-4137-4d85-868f-c557e83bbcf3</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Newcastle Track 1</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="1228920240">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5209067633057894555</e>
+						<e d:type="sUInt64">16016545457336453288</e>
+					</UUID>
+					<DevString d:type="cDeltaString">d766909b-5369-484a-a888-6ff13b3346de</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Newcastle Track 2</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="1228930400">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4897995059560258287</e>
+						<e d:type="sUInt64">10387821330150938276</e>
+					</UUID>
+					<DevString d:type="cDeltaString">54b51aef-2c8e-43f9-a456-df7576f42890</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Rocklin Station</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="1228953080">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4947922714679796213</e>
+						<e d:type="sUInt64">2983686430840876983</e>
+					</UUID>
+					<DevString d:type="cDeltaString">689361f5-8d7e-44aa-b76f-6c27002f6829</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Rocklin Track 1</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="1228926880">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4775467986219573249</e>
+						<e d:type="sUInt64">625320328029827992</e>
+					</UUID>
+					<DevString d:type="cDeltaString">fade2001-ded4-4245-9873-0c778695ad08</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Rocklin Track 2</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="1228928280">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5597894451820691859</e>
+						<e d:type="sUInt64">8039052250006704262</e>
+					</UUID>
+					<DevString d:type="cDeltaString">52e70193-b758-4daf-8650-74bc6d73906f</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Tunnel 15 Track 2</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="1228930880">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4900190843367510996</e>
+						<e d:type="sUInt64">12595996349009623982</e>
+					</UUID>
+					<DevString d:type="cDeltaString">168ad3d4-f99c-4400-aefb-d566f1f7cdae</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Tunnel 16 Track 2</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="1228952800">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5202822821973899142</e>
+						<e d:type="sUInt64">13653819866636056235</e>
+					</UUID>
+					<DevString d:type="cDeltaString">750cb786-23ca-4834-ab76-03e2d31c7cbd</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Tunnel 17 Track 2</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="1228922680">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4815417577492886731</e>
+						<e d:type="sUInt64">10665653504342040451</e>
+					</UUID>
+					<DevString d:type="cDeltaString">07a2b4cb-ccc6-42d3-831f-b5675a030494</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Tunnel 18 Track 1</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="1228932480">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5147630127860098342</e>
+						<e d:type="sUInt64">9752789468150203278</e>
+					</UUID>
+					<DevString d:type="cDeltaString">f6332526-0e53-4770-8e83-434a59de5887</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Tunnel 18 Track 2</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="1228918040">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5332003309508233092</e>
+						<e d:type="sUInt64">8904339988005680309</e>
+					</UUID>
+					<DevString d:type="cDeltaString">84720784-14c2-49ff-b574-62b80a92927b</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Tunnel 20 Track 2</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="1228927280">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4840659652951909254</e>
+						<e d:type="sUInt64">9451307137275541389</e>
+					</UUID>
+					<DevString d:type="cDeltaString">b4c3a386-7a4e-432d-8d37-6c24c4c92983</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Tunnel 21 Track 2</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+	</NamedEntity>
+	<Condition/>
+	<DeferredEvent/>
+	<CheckedCondition/>
+	<CareerRules>
+		<cCareerRules d:id="1767968720">
+			<Parent>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5440771619448707058</e>
+						<e d:type="sUInt64">3265203436012951939</e>
+					</UUID>
+					<DevString d:type="cDeltaString">214457f2-80f6-4b81-83d9-efaa3955502d</DevString>
+				</cGUID>
+			</Parent>
+			<StartScore d:type="sInt32">0</StartScore>
+			<Version d:type="sInt32">2</Version>
+			<CodeVersion d:type="sInt32">5</CodeVersion>
+			<DLC d:type="sInt32">0</DLC>
+			<StatsGroup d:type="sInt32">0</StatsGroup>
+			<SpeedCheckIntervalSec d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</SpeedCheckIntervalSec>
+			<PointsPerMPHPerInterval d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</PointsPerMPHPerInterval>
+			<SpeedMultiplierThresholdSec d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</SpeedMultiplierThresholdSec>
+			<SpeedMultiplier d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</SpeedMultiplier>
+			<ComfortCheckIntervalSec d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</ComfortCheckIntervalSec>
+			<PointsPerGPerInterval d:type="sFloat32" d:alt_encoding="0000000000005940" d:precision="string">100</PointsPerGPerInterval>
+			<ComfortForceLimitG d:type="sFloat32" d:alt_encoding="00000040E17AB43F" d:precision="string">0.08</ComfortForceLimitG>
+			<ComfortForceMaxScaleG d:type="sFloat32" d:alt_encoding="000000A09999B93F" d:precision="string">0.1</ComfortForceMaxScaleG>
+			<LateralComfortForceLimitG d:type="sFloat32" d:alt_encoding="000000A09999C93F" d:precision="string">0.2</LateralComfortForceLimitG>
+			<LateralComfortForceMaxScaleG d:type="sFloat32" d:alt_encoding="000000000000D03F" d:precision="string">0.25</LateralComfortForceMaxScaleG>
+			<LatePointsPerSecond d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</LatePointsPerSecond>
+			<LateMuliplierPerMinute d:type="sFloat32" d:alt_encoding="000000000000E03F" d:precision="string">0.5</LateMuliplierPerMinute>
+			<EarlyPointsAddedPerSecond d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</EarlyPointsAddedPerSecond>
+			<EarlyMultiplierPerMinute d:type="sFloat32" d:alt_encoding="000000000000E03F" d:precision="string">0.5</EarlyMultiplierPerMinute>
+			<MissedStopPoints d:type="sFloat32" d:alt_encoding="0000000000006940" d:precision="string">200</MissedStopPoints>
+			<LeaveEarlyPoints d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</LeaveEarlyPoints>
+			<ArrivalPoints d:type="sFloat32" d:alt_encoding="0000000000006940" d:precision="string">200</ArrivalPoints>
+			<WheelslipPointsPerSec d:type="sFloat32" d:alt_encoding="0000000000001440" d:precision="string">5</WheelslipPointsPerSec>
+			<PointsPerOpError d:type="sFloat32" d:alt_encoding="0000000000004940" d:precision="string">50</PointsPerOpError>
+			<FuelUsageThreshold d:type="sFloat32" d:alt_encoding="0000000000407F40" d:precision="string">500</FuelUsageThreshold>
+			<FuelPointsPerUnitUsed d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</FuelPointsPerUnitUsed>
+			<EmergencyBrakingPointsPerSec d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</EmergencyBrakingPointsPerSec>
+			<AccuracyBonus d:type="sFloat32" d:alt_encoding="0000000000006940" d:precision="string">200</AccuracyBonus>
+			<AccuracyPenalty d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</AccuracyPenalty>
+			<MaxAccuracyPenalty d:type="sFloat32" d:alt_encoding="0000000000407F40" d:precision="string">500</MaxAccuracyPenalty>
+			<CarriagesPenalty d:type="sFloat32" d:alt_encoding="000000A083C6C644" d:precision="string">2.15108e+023</CarriagesPenalty>
+			<MD5 d:type="cDeltaString"></MD5>
+			<GoldMedalThreshold d:type="sUInt32">900</GoldMedalThreshold>
+			<SilverMedalThreshold d:type="sUInt32">750</SilverMedalThreshold>
+			<BronzeMedalThreshold d:type="sUInt32">500</BronzeMedalThreshold>
+			<WhistleSignPoints d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</WhistleSignPoints>
+		</cCareerRules>
+	</CareerRules>
+	<MD5 d:type="cDeltaString">F1C5E60EAE0B44EEE98CE22E4C6BB4B0</MD5>
+	<MessageEvent/>
+	<SimpleControlsOnly d:type="bool">0</SimpleControlsOnly>
+	<ExpertControlsOnly d:type="bool">0</ExpertControlsOnly>
+	<LocksScenario/>
+	<StartDestString/>
+	<TemplateStartDestMapping/>
+	<IsTemplateGenerated d:type="bool">0</IsTemplateGenerated>
+	<TemplateScenarioGUID>
+		<cGUID>
+			<UUID>
+				<e d:type="sUInt64">0</e>
+				<e d:type="sUInt64">0</e>
+			</UUID>
+			<DevString d:type="cDeltaString">00000000-0000-0000-0000-000000000000</DevString>
+		</cGUID>
+	</TemplateScenarioGUID>
+	<WorkshopId d:type="sUInt64">0</WorkshopId>
+	<WorkshopBy d:type="sUInt64">0</WorkshopBy>
+	<WorkshopTags d:type="cDeltaString"></WorkshopTags>
+	<StartInCab d:type="bool">0</StartInCab>
+	<IsClonedDLC d:type="bool">1</IsClonedDLC>
+	<StartLongitude d:type="sFloat64" d:alt_encoding="0000000000000000" d:precision="string">0</StartLongitude>
+	<StartLatitude d:type="sFloat64" d:alt_encoding="0000000000000000" d:precision="string">0</StartLatitude>
+	<StartHeight d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</StartHeight>
+	<QuickDriveStartName d:type="cDeltaString"></QuickDriveStartName>
+	<QuickDriveEndName d:type="cDeltaString"></QuickDriveEndName>
+	<QuickDrivePlayerConsistName d:type="cDeltaString"></QuickDrivePlayerConsistName>
+</cScenarioProperties>
