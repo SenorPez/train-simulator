@@ -12,7 +12,7 @@
 	<String/>
 	<DisplayName>
 		<Localisation-cUserLocalisedString>
-			<English d:type="cDeltaString">1. Early Morning Switching (Career)</English>
+			<English d:type="cDeltaString">1. Early Morning Switching (Career) (v2)</English>
 			<French d:type="cDeltaString"></French>
 			<Italian d:type="cDeltaString"></Italian>
 			<German d:type="cDeltaString"></German>
@@ -84,8 +84,21 @@
 			<BlueprintID d:type="cDeltaString">weather\hsc weather 01.xml</BlueprintID>
 		</iBlueprintLibrary-cAbsoluteBlueprintID>
 	</WeatherBlueprint>
+	<WeatherExtensionBlueprint>
+		<iBlueprintLibrary-cAbsoluteBlueprintID>
+			<BlueprintSetID>
+				<iBlueprintLibrary-cBlueprintSetID>
+					<Provider d:type="cDeltaString"></Provider>
+					<Product d:type="cDeltaString"></Product>
+				</iBlueprintLibrary-cBlueprintSetID>
+			</BlueprintSetID>
+			<BlueprintID d:type="cDeltaString"></BlueprintID>
+		</iBlueprintLibrary-cAbsoluteBlueprintID>
+	</WeatherExtensionBlueprint>
 	<Rating d:type="sInt32">1</Rating>
 	<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
+	<HasRollingStart d:type="bool">0</HasRollingStart>
+	<LoadedFromRollingStart d:type="bool">0</LoadedFromRollingStart>
 	<FrontEndDriverList>
 		<sDriverFrontEndDetails d:id="2100311200">
 			<ServiceName>
@@ -143,7 +156,7 @@
 			</StartLocation>
 			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
 			<LocoAuthor d:type="cDeltaString">RSC</LocoAuthor>
-			<FilePath d:type="cDeltaString">RSC\HorseshoeCurve\railvehicles\diesel\gp7\default\engine</FilePath>
+			<FilePath d:type="cDeltaString">RSC\HorseshoeCurve\RailVehicles\Diesel\GP7\Default\Engine</FilePath>
 			<Longitude d:type="sFloat64" d:alt_encoding="4694F6065F9853C0" d:precision="string">-78.3808</Longitude>
 			<Latitude d:type="sFloat64" d:alt_encoding="BF0E9C33A2444440" d:precision="string">40.5362</Latitude>
 			<Height d:type="sFloat32" d:alt_encoding="0000002031707540" d:precision="string">343.012</Height>
@@ -187,7 +200,7 @@
 							<Product d:type="cDeltaString">HorseshoeCurve</Product>
 						</iBlueprintLibrary-cBlueprintSetID>
 					</BlueprintSetID>
-					<BlueprintID d:type="cDeltaString">railvehicles\diesel\f7\default\engine\f7a_default.xml</BlueprintID>
+					<BlueprintID d:type="cDeltaString">RailVehicles\Diesel\F7\Default\Engine\F7A_default.xml</BlueprintID>
 				</iBlueprintLibrary-cAbsoluteBlueprintID>
 			</LocoBP>
 			<StartLocation>
@@ -206,7 +219,7 @@
 			</StartLocation>
 			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
 			<LocoAuthor d:type="cDeltaString">RSC</LocoAuthor>
-			<FilePath d:type="cDeltaString">RSC\HorseshoeCurve\railvehicles\diesel\f7\default\engine</FilePath>
+			<FilePath d:type="cDeltaString">RSC\HorseshoeCurve\RailVehicles\Diesel\F7\Default\Engine</FilePath>
 			<Longitude d:type="sFloat64" d:alt_encoding="0DE02D90A09853C0" d:precision="string">-78.3848</Longitude>
 			<Latitude d:type="sFloat64" d:alt_encoding="A4703D0AD7434440" d:precision="string">40.53</Latitude>
 			<Height d:type="sFloat32" d:alt_encoding="000000600E8F7540" d:precision="string">344.941</Height>
@@ -249,7 +262,7 @@
 							<Product d:type="cDeltaString">HorseshoeCurve</Product>
 						</iBlueprintLibrary-cBlueprintSetID>
 					</BlueprintSetID>
-					<BlueprintID d:type="cDeltaString">railvehicles\diesel\gp7\default\engine\gp7_default.xml</BlueprintID>
+					<BlueprintID d:type="cDeltaString">RailVehicles\Diesel\GP7\Default\Engine\GP7_default.xml</BlueprintID>
 				</iBlueprintLibrary-cAbsoluteBlueprintID>
 			</LocoBP>
 			<StartLocation>
@@ -268,7 +281,7 @@
 			</StartLocation>
 			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
 			<LocoAuthor d:type="cDeltaString">RSC</LocoAuthor>
-			<FilePath d:type="cDeltaString">RSC\HorseshoeCurve\railvehicles\diesel\gp7\default\engine</FilePath>
+			<FilePath d:type="cDeltaString">RSC\HorseshoeCurve\RailVehicles\Diesel\GP7\Default\Engine</FilePath>
 			<Longitude d:type="sFloat64" d:alt_encoding="764F1E166A9953C0" d:precision="string">-78.3971</Longitude>
 			<Latitude d:type="sFloat64" d:alt_encoding="B5A679C729424440" d:precision="string">40.5169</Latitude>
 			<Height d:type="sFloat32" d:alt_encoding="0000004060F37540" d:precision="string">351.211</Height>
@@ -311,7 +324,7 @@
 							<Product d:type="cDeltaString">HorseshoeCurve</Product>
 						</iBlueprintLibrary-cBlueprintSetID>
 					</BlueprintSetID>
-					<BlueprintID d:type="cDeltaString">railvehicles\diesel\gp7\default\engine\gp7_default.xml</BlueprintID>
+					<BlueprintID d:type="cDeltaString">RailVehicles\Diesel\GP7\Default\Engine\GP7_default.xml</BlueprintID>
 				</iBlueprintLibrary-cAbsoluteBlueprintID>
 			</LocoBP>
 			<StartLocation>
@@ -330,7 +343,7 @@
 			</StartLocation>
 			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
 			<LocoAuthor d:type="cDeltaString">RSC</LocoAuthor>
-			<FilePath d:type="cDeltaString">RSC\HorseshoeCurve\railvehicles\diesel\gp7\default\engine</FilePath>
+			<FilePath d:type="cDeltaString">RSC\HorseshoeCurve\RailVehicles\Diesel\GP7\Default\Engine</FilePath>
 			<Longitude d:type="sFloat64" d:alt_encoding="D50968226C9853C0" d:precision="string">-78.3816</Longitude>
 			<Latitude d:type="sFloat64" d:alt_encoding="23DBF97E6A444440" d:precision="string">40.5345</Latitude>
 			<Height d:type="sFloat32" d:alt_encoding="000000806C6F7540" d:precision="string">342.964</Height>
@@ -373,7 +386,7 @@
 							<Product d:type="cDeltaString">HorseshoeCurve</Product>
 						</iBlueprintLibrary-cBlueprintSetID>
 					</BlueprintSetID>
-					<BlueprintID d:type="cDeltaString">railvehicles\diesel\gp7\default\engine\gp7_default.xml</BlueprintID>
+					<BlueprintID d:type="cDeltaString">RailVehicles\Diesel\GP7\Default\Engine\GP7_default.xml</BlueprintID>
 				</iBlueprintLibrary-cAbsoluteBlueprintID>
 			</LocoBP>
 			<StartLocation>
@@ -392,13 +405,23 @@
 			</StartLocation>
 			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
 			<LocoAuthor d:type="cDeltaString">RSC</LocoAuthor>
-			<FilePath d:type="cDeltaString">RSC\HorseshoeCurve\railvehicles\diesel\gp7\default\engine</FilePath>
+			<FilePath d:type="cDeltaString">RSC\HorseshoeCurve\RailVehicles\Diesel\GP7\Default\Engine</FilePath>
 			<Longitude d:type="sFloat64" d:alt_encoding="B8AF03E78C9853C0" d:precision="string">-78.3836</Longitude>
 			<Latitude d:type="sFloat64" d:alt_encoding="158C4AEA04444440" d:precision="string">40.5314</Latitude>
 			<Height d:type="sFloat32" d:alt_encoding="000000C09F847540" d:precision="string">344.289</Height>
 			<PlayerDriver d:type="bool">0</PlayerDriver>
 		</sDriverFrontEndDetails>
 	</FrontEndDriverList>
+	<RequiredSet>
+		<iBlueprintLibrary-cBlueprintSetID d:id="213286646">
+			<Provider d:type="cDeltaString">Kuju</Provider>
+			<Product d:type="cDeltaString">RailsimulatorUS</Product>
+		</iBlueprintLibrary-cBlueprintSetID>
+		<iBlueprintLibrary-cBlueprintSetID d:id="213286648">
+			<Provider d:type="cDeltaString">RSC</Provider>
+			<Product d:type="cDeltaString">HorseshoeCurve</Product>
+		</iBlueprintLibrary-cBlueprintSetID>
+	</RequiredSet>
 	<Gizmo>
 		<cOwnedEntity d:id="892605000">
 			<Component>
@@ -461,7 +484,7 @@
 							<Product d:type="cDeltaString">RailSimulatorCore</Product>
 						</iBlueprintLibrary-cBlueprintSetID>
 					</BlueprintSetID>
-					<BlueprintID d:type="cDeltaString">editor\gizmo\scenario markers\career scenario marker.xml</BlueprintID>
+					<BlueprintID d:type="cDeltaString">Editor\Gizmo\Scenario Markers\Career Scenario Marker.xml</BlueprintID>
 				</iBlueprintLibrary-cAbsoluteBlueprintID>
 			</BlueprintID>
 			<ReskinBlueprintID>
@@ -490,7 +513,7 @@
 	<SimulationTime d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</SimulationTime>
 	<AuthoredLanguage d:type="cDeltaString">en</AuthoredLanguage>
 	<Version d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</Version>
-	<Author d:type="cDeltaString">RSC </Author>
+	<Author d:type="cDeltaString">RSC, SenorPez</Author>
 	<DispatcherVersion d:type="cDeltaString">V1</DispatcherVersion>
 	<RBlueprintSetPreLoad/>
 	<NamedEntity>
@@ -594,7 +617,7 @@
 				</cGUID>
 			</Parent>
 			<StartScore d:type="sInt32">0</StartScore>
-			<Version d:type="sInt32">1</Version>
+			<Version d:type="sInt32">2</Version>
 			<CodeVersion d:type="sInt32">3</CodeVersion>
 			<DLC d:type="sInt32">0</DLC>
 			<StatsGroup d:type="sInt32">0</StatsGroup>
@@ -620,13 +643,18 @@
 			<FuelUsageThreshold d:type="sFloat32" d:alt_encoding="0000000000408F40" d:precision="string">1000</FuelUsageThreshold>
 			<FuelPointsPerUnitUsed d:type="sFloat32" d:alt_encoding="0000000000002440" d:precision="string">10</FuelPointsPerUnitUsed>
 			<EmergencyBrakingPointsPerSec d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</EmergencyBrakingPointsPerSec>
-			<AccuracyBonus d:type="sFloat32" d:alt_encoding="0000000000004940" d:precision="string">50</AccuracyBonus>
-			<AccuracyPenalty d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</AccuracyPenalty>
+			<AccuracyBonus d:type="sFloat32" d:alt_encoding="0000000000006940" d:precision="string">200</AccuracyBonus>
+			<AccuracyPenalty d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</AccuracyPenalty>
 			<MaxAccuracyPenalty d:type="sFloat32" d:alt_encoding="0000000000C07240" d:precision="string">300</MaxAccuracyPenalty>
+			<CarriagesPenalty d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</CarriagesPenalty>
 			<MD5 d:type="cDeltaString"></MD5>
+			<GoldMedalThreshold d:type="sUInt32">900</GoldMedalThreshold>
+			<SilverMedalThreshold d:type="sUInt32">750</SilverMedalThreshold>
+			<BronzeMedalThreshold d:type="sUInt32">500</BronzeMedalThreshold>
+			<WhistleSignPoints d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</WhistleSignPoints>
 		</cCareerRules>
 	</CareerRules>
-	<MD5 d:type="cDeltaString">7128432D2EBE3DB1DFA366A2087EA0F6</MD5>
+	<MD5 d:type="cDeltaString">8C80C18116AE1BA30A9CE20BC8BD9B3B</MD5>
 	<MessageEvent/>
 	<SimpleControlsOnly d:type="bool">0</SimpleControlsOnly>
 	<ExpertControlsOnly d:type="bool">0</ExpertControlsOnly>
