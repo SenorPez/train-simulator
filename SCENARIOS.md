@@ -78,3 +78,17 @@ For the second, as it follows a `CLEAR` signal, it's obviously malfunctioning an
 
 > [!NOTE]
 > This scenario suffers from performance issues; these issues were also present in the original scenario and have not been fixed.
+
+-----
+
+# Horseshoe Curve
+**Package Name:** `horseshoe-curve.zip`
+
+**Installation:** See `INSTALLATION.md`
+
+## 1 Early Morning Switching
+**Problem:** The scoring of the scenario doesn't total 1000 points and uses the precision mechanic.
+
+**Solution:** The scoring has been updated. The precision mechanic has been removed.
+
+**Version:** 2
