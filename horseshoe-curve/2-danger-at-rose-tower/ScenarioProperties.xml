@@ -12,7 +12,7 @@
 	<String/>
 	<DisplayName>
 		<Localisation-cUserLocalisedString>
-			<English d:type="cDeltaString">2. Danger at Rose Tower (Career)</English>
+			<English d:type="cDeltaString">2. Danger at Rose Tower (Career) (v2)</English>
 			<French d:type="cDeltaString"></French>
 			<Italian d:type="cDeltaString"></Italian>
 			<German d:type="cDeltaString"></German>
@@ -84,8 +84,21 @@
 			<BlueprintID d:type="cDeltaString">weather\rw_stormy.xml</BlueprintID>
 		</iBlueprintLibrary-cAbsoluteBlueprintID>
 	</WeatherBlueprint>
+	<WeatherExtensionBlueprint>
+		<iBlueprintLibrary-cAbsoluteBlueprintID>
+			<BlueprintSetID>
+				<iBlueprintLibrary-cBlueprintSetID>
+					<Provider d:type="cDeltaString"></Provider>
+					<Product d:type="cDeltaString"></Product>
+				</iBlueprintLibrary-cBlueprintSetID>
+			</BlueprintSetID>
+			<BlueprintID d:type="cDeltaString"></BlueprintID>
+		</iBlueprintLibrary-cAbsoluteBlueprintID>
+	</WeatherExtensionBlueprint>
 	<Rating d:type="sInt32">2</Rating>
 	<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
+	<HasRollingStart d:type="bool">0</HasRollingStart>
+	<LoadedFromRollingStart d:type="bool">0</LoadedFromRollingStart>
 	<FrontEndDriverList>
 		<sDriverFrontEndDetails d:id="2100293736">
 			<ServiceName>
@@ -143,7 +156,7 @@
 			</StartLocation>
 			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
 			<LocoAuthor d:type="cDeltaString">RSC</LocoAuthor>
-			<FilePath d:type="cDeltaString">RSC\HorseshoeCurve\railvehicles\diesel\f7\default\engine</FilePath>
+			<FilePath d:type="cDeltaString">RSC\HorseshoeCurve\RailVehicles\Diesel\F7\Default\Engine</FilePath>
 			<Longitude d:type="sFloat64" d:alt_encoding="F8C264AA609853C0" d:precision="string">-78.3809</Longitude>
 			<Latitude d:type="sFloat64" d:alt_encoding="BF7D1D3867444440" d:precision="string">40.5344</Latitude>
 			<Height d:type="sFloat32" d:alt_encoding="00000040336D7540" d:precision="string">342.825</Height>
@@ -186,7 +199,7 @@
 							<Product d:type="cDeltaString">HorseshoeCurve</Product>
 						</iBlueprintLibrary-cBlueprintSetID>
 					</BlueprintSetID>
-					<BlueprintID d:type="cDeltaString">railvehicles\diesel\gp7\default\engine\gp7_default.xml</BlueprintID>
+					<BlueprintID d:type="cDeltaString">RailVehicles\Diesel\GP7\Default\Engine\GP7_default.xml</BlueprintID>
 				</iBlueprintLibrary-cAbsoluteBlueprintID>
 			</LocoBP>
 			<StartLocation>
@@ -205,13 +218,19 @@
 			</StartLocation>
 			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
 			<LocoAuthor d:type="cDeltaString">RSC</LocoAuthor>
-			<FilePath d:type="cDeltaString">RSC\HorseshoeCurve\railvehicles\diesel\gp7\default\engine</FilePath>
+			<FilePath d:type="cDeltaString">RSC\HorseshoeCurve\RailVehicles\Diesel\GP7\Default\Engine</FilePath>
 			<Longitude d:type="sFloat64" d:alt_encoding="B81E85EB519853C0" d:precision="string">-78.38</Longitude>
 			<Latitude d:type="sFloat64" d:alt_encoding="F853E3A59B444440" d:precision="string">40.536</Latitude>
 			<Height d:type="sFloat32" d:alt_encoding="000000A0F1727540" d:precision="string">343.184</Height>
 			<PlayerDriver d:type="bool">0</PlayerDriver>
 		</sDriverFrontEndDetails>
 	</FrontEndDriverList>
+	<RequiredSet>
+		<iBlueprintLibrary-cBlueprintSetID d:id="193556668">
+			<Provider d:type="cDeltaString">RSC</Provider>
+			<Product d:type="cDeltaString">HorseshoeCurve</Product>
+		</iBlueprintLibrary-cBlueprintSetID>
+	</RequiredSet>
 	<Gizmo>
 		<cOwnedEntity d:id="892606248">
 			<Component>
@@ -274,7 +293,7 @@
 							<Product d:type="cDeltaString">RailSimulatorCore</Product>
 						</iBlueprintLibrary-cBlueprintSetID>
 					</BlueprintSetID>
-					<BlueprintID d:type="cDeltaString">editor\gizmo\scenario markers\career scenario marker.xml</BlueprintID>
+					<BlueprintID d:type="cDeltaString">Editor\Gizmo\Scenario Markers\Career Scenario Marker.xml</BlueprintID>
 				</iBlueprintLibrary-cAbsoluteBlueprintID>
 			</BlueprintID>
 			<ReskinBlueprintID>
@@ -303,7 +322,7 @@
 	<SimulationTime d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</SimulationTime>
 	<AuthoredLanguage d:type="cDeltaString">en</AuthoredLanguage>
 	<Version d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</Version>
-	<Author d:type="cDeltaString">RSC</Author>
+	<Author d:type="cDeltaString">RSC, SenorPez</Author>
 	<DispatcherVersion d:type="cDeltaString">V1</DispatcherVersion>
 	<RBlueprintSetPreLoad/>
 	<NamedEntity>
@@ -403,19 +422,24 @@
 			<EarlyMultiplierPerMinute d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</EarlyMultiplierPerMinute>
 			<MissedStopPoints d:type="sFloat32" d:alt_encoding="0000000000006940" d:precision="string">200</MissedStopPoints>
 			<LeaveEarlyPoints d:type="sFloat32" d:alt_encoding="0000000000006940" d:precision="string">200</LeaveEarlyPoints>
-			<ArrivalPoints d:type="sFloat32" d:alt_encoding="0000000000006940" d:precision="string">200</ArrivalPoints>
+			<ArrivalPoints d:type="sFloat32" d:alt_encoding="0000000000406F40" d:precision="string">250</ArrivalPoints>
 			<WheelslipPointsPerSec d:type="sFloat32" d:alt_encoding="0000000000001440" d:precision="string">5</WheelslipPointsPerSec>
 			<PointsPerOpError d:type="sFloat32" d:alt_encoding="0000000000004940" d:precision="string">50</PointsPerOpError>
 			<FuelUsageThreshold d:type="sFloat32" d:alt_encoding="0000000000408F40" d:precision="string">1000</FuelUsageThreshold>
 			<FuelPointsPerUnitUsed d:type="sFloat32" d:alt_encoding="0000000000002440" d:precision="string">10</FuelPointsPerUnitUsed>
 			<EmergencyBrakingPointsPerSec d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</EmergencyBrakingPointsPerSec>
-			<AccuracyBonus d:type="sFloat32" d:alt_encoding="0000000000004940" d:precision="string">50</AccuracyBonus>
-			<AccuracyPenalty d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</AccuracyPenalty>
+			<AccuracyBonus d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</AccuracyBonus>
+			<AccuracyPenalty d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</AccuracyPenalty>
 			<MaxAccuracyPenalty d:type="sFloat32" d:alt_encoding="0000000000C07240" d:precision="string">300</MaxAccuracyPenalty>
+			<CarriagesPenalty d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</CarriagesPenalty>
 			<MD5 d:type="cDeltaString"></MD5>
+			<GoldMedalThreshold d:type="sUInt32">900</GoldMedalThreshold>
+			<SilverMedalThreshold d:type="sUInt32">750</SilverMedalThreshold>
+			<BronzeMedalThreshold d:type="sUInt32">500</BronzeMedalThreshold>
+			<WhistleSignPoints d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</WhistleSignPoints>
 		</cCareerRules>
 	</CareerRules>
-	<MD5 d:type="cDeltaString">82665032CE9BFBF916114DC0CA6EC416</MD5>
+	<MD5 d:type="cDeltaString">E667C7694675974B77DF7B2D1C02B7DF</MD5>
 	<MessageEvent/>
 	<SimpleControlsOnly d:type="bool">0</SimpleControlsOnly>
 	<ExpertControlsOnly d:type="bool">0</ExpertControlsOnly>
