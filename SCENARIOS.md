@@ -99,3 +99,10 @@ For the second, as it follows a `CLEAR` signal, it's obviously malfunctioning an
 **Solution:** The scoring has been updated. The precision mechanic has been removed.
 
 **Version:** 2
+
+## 4 Helper on the Curve
+**Problem:** The scoring of the scenario uses the precision mechanic.
+
+**Solution:** The precision mechanic has been removed.
+
+**Version:** 2
