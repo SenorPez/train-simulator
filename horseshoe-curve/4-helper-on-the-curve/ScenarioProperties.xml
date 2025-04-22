@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cScenarioProperties xmlns:d="http://www.kuju.com/TnT/2003/Delta" d:version="1.0" d:id="2095294472">
+	<ID>
+		<cGUID>
+			<UUID>
+				<e d:type="sUInt64">4819073896200581343</e>
+				<e d:type="sUInt64">13615697469949246897</e>
+			</UUID>
+			<DevString d:type="cDeltaString">1164b0df-ca2d-42e0-b17d-82b9b5acf4bc</DevString>
+		</cGUID>
+	</ID>
+	<String/>
+	<DisplayName>
+		<Localisation-cUserLocalisedString>
+			<English d:type="cDeltaString">4. Helper on the Curve (Career)</English>
+			<French d:type="cDeltaString"></French>
+			<Italian d:type="cDeltaString"></Italian>
+			<German d:type="cDeltaString"></German>
+			<Spanish d:type="cDeltaString"></Spanish>
+			<Dutch d:type="cDeltaString"></Dutch>
+			<Polish d:type="cDeltaString"></Polish>
+			<Russian d:type="cDeltaString"></Russian>
+			<Other/>
+			<Key d:type="cDeltaString">b4d84ee3-54fd-4cef-af52-e6c255f917b8</Key>
+		</Localisation-cUserLocalisedString>
+	</DisplayName>
+	<Description>
+		<Localisation-cUserLocalisedString>
+			<English d:type="cDeltaString">The months march on and it is now the centenary year for the construction of the Horseshoe Curve.   People are already starting to talk about what might be done in October to mark the event.   Until then, your work continues.</English>
+			<French d:type="cDeltaString"></French>
+			<Italian d:type="cDeltaString"></Italian>
+			<German d:type="cDeltaString"></German>
+			<Spanish d:type="cDeltaString"></Spanish>
+			<Dutch d:type="cDeltaString"></Dutch>
+			<Polish d:type="cDeltaString"></Polish>
+			<Russian d:type="cDeltaString"></Russian>
+			<Other/>
+			<Key d:type="cDeltaString">a927d03c-1531-4f57-9902-bab8a47e4f57</Key>
+		</Localisation-cUserLocalisedString>
+	</Description>
+	<Briefing>
+		<Localisation-cUserLocalisedString>
+			<English d:type="cDeltaString">The months march on and it is now the centenary year for the construction of the Horseshoe Curve.   People are already starting to talk about what might be done in October to mark the event.   Until then, your work continues.</English>
+			<French d:type="cDeltaString"></French>
+			<Italian d:type="cDeltaString"></Italian>
+			<German d:type="cDeltaString"></German>
+			<Spanish d:type="cDeltaString"></Spanish>
+			<Dutch d:type="cDeltaString"></Dutch>
+			<Polish d:type="cDeltaString"></Polish>
+			<Russian d:type="cDeltaString"></Russian>
+			<Other/>
+			<Key d:type="cDeltaString">daa792e7-b1bc-468a-a67f-385e2f207fa6</Key>
+		</Localisation-cUserLocalisedString>
+	</Briefing>
+	<StartLocation>
+		<Localisation-cUserLocalisedString>
+			<English d:type="cDeltaString">Altoona</English>
+			<French d:type="cDeltaString"></French>
+			<Italian d:type="cDeltaString"></Italian>
+			<German d:type="cDeltaString"></German>
+			<Spanish d:type="cDeltaString"></Spanish>
+			<Dutch d:type="cDeltaString"></Dutch>
+			<Polish d:type="cDeltaString"></Polish>
+			<Russian d:type="cDeltaString"></Russian>
+			<Other/>
+			<Key d:type="cDeltaString">ff83d408-ee03-43e8-ad04-779358552748</Key>
+		</Localisation-cUserLocalisedString>
+	</StartLocation>
+	<ScenarioClass d:type="cDeltaString">eCareerScenarioClass</ScenarioClass>
+	<StartTime d:type="sFloat32" d:alt_encoding="0000000000B6DC40" d:precision="string">29400</StartTime>
+	<DurationMins d:type="sInt32">40</DurationMins>
+	<StartDD d:type="sInt32">10</StartDD>
+	<StartMM d:type="sInt32">4</StartMM>
+	<StartYYYY d:type="sInt32">1954</StartYYYY>
+	<Season d:type="cDeltaString">SEASON_SUMMER</Season>
+	<WeatherBlueprint>
+		<iBlueprintLibrary-cAbsoluteBlueprintID>
+			<BlueprintSetID>
+				<iBlueprintLibrary-cBlueprintSetID>
+					<Provider d:type="cDeltaString">Kuju</Provider>
+					<Product d:type="cDeltaString">RailSimulatorCore</Product>
+				</iBlueprintLibrary-cBlueprintSetID>
+			</BlueprintSetID>
+			<BlueprintID d:type="cDeltaString">weather\rw_cloudy_showers.xml</BlueprintID>
+		</iBlueprintLibrary-cAbsoluteBlueprintID>
+	</WeatherBlueprint>
+	<Rating d:type="sInt32">3</Rating>
+	<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
+	<FrontEndDriverList>
+		<sDriverFrontEndDetails d:id="951204584">
+			<ServiceName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">8546</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">272bd180-9a66-423e-b657-f9b8676f54b0</Key>
+				</Localisation-cUserLocalisedString>
+			</ServiceName>
+			<LocoName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">EMD GP7 Pennsy</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">RS_TXT_GP7_PRR</Key>
+				</Localisation-cUserLocalisedString>
+			</LocoName>
+			<LocoBP>
+				<iBlueprintLibrary-cAbsoluteBlueprintID>
+					<BlueprintSetID>
+						<iBlueprintLibrary-cBlueprintSetID>
+							<Provider d:type="cDeltaString">RSC</Provider>
+							<Product d:type="cDeltaString">HorseshoeCurve</Product>
+						</iBlueprintLibrary-cBlueprintSetID>
+					</BlueprintSetID>
+					<BlueprintID d:type="cDeltaString">railvehicles\diesel\gp7\default\engine\gp7_default.xml</BlueprintID>
+				</iBlueprintLibrary-cAbsoluteBlueprintID>
+			</LocoBP>
+			<StartLocation>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString"></English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">0afe2a74-d0ee-4c52-9fe3-d94386dab5dd</Key>
+				</Localisation-cUserLocalisedString>
+			</StartLocation>
+			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
+			<LocoAuthor d:type="cDeltaString">RSC</LocoAuthor>
+			<FilePath d:type="cDeltaString">RSC\HorseshoeCurve\railvehicles\diesel\gp7\default\engine</FilePath>
+			<Longitude d:type="sFloat64" d:alt_encoding="D0D556EC2F9F53C0" d:precision="string">-78.4873</Longitude>
+			<Latitude d:type="sFloat64" d:alt_encoding="CDCCCCCCCC3C4440" d:precision="string">40.475</Latitude>
+			<Height d:type="sFloat32" d:alt_encoding="00000000D5538140" d:precision="string">554.479</Height>
+			<PlayerDriver d:type="bool">0</PlayerDriver>
+		</sDriverFrontEndDetails>
+		<sDriverFrontEndDetails d:id="951204288">
+			<ServiceName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">9766A</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">7abd8cd6-d0ef-4eed-9224-8a9e147ed053</Key>
+				</Localisation-cUserLocalisedString>
+			</ServiceName>
+			<LocoName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">EMD F7 Pennsy</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">RS_TXT_F7_PENN1</Key>
+				</Localisation-cUserLocalisedString>
+			</LocoName>
+			<LocoBP>
+				<iBlueprintLibrary-cAbsoluteBlueprintID>
+					<BlueprintSetID>
+						<iBlueprintLibrary-cBlueprintSetID>
+							<Provider d:type="cDeltaString">RSC</Provider>
+							<Product d:type="cDeltaString">HorseshoeCurve</Product>
+						</iBlueprintLibrary-cBlueprintSetID>
+					</BlueprintSetID>
+					<BlueprintID d:type="cDeltaString">railvehicles\diesel\f7\default\engine\f7a_default.xml</BlueprintID>
+				</iBlueprintLibrary-cAbsoluteBlueprintID>
+			</LocoBP>
+			<StartLocation>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString"></English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">f48c77a8-14e4-4e14-8a90-a178a5dfe2bf</Key>
+				</Localisation-cUserLocalisedString>
+			</StartLocation>
+			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
+			<LocoAuthor d:type="cDeltaString">RSC</LocoAuthor>
+			<FilePath d:type="cDeltaString">RSC\HorseshoeCurve\railvehicles\diesel\f7\default\engine</FilePath>
+			<Longitude d:type="sFloat64" d:alt_encoding="295C8FC2F59853C0" d:precision="string">-78.39</Longitude>
+			<Latitude d:type="sFloat64" d:alt_encoding="B3EA73B515434440" d:precision="string">40.5241</Latitude>
+			<Height d:type="sFloat32" d:alt_encoding="0000002083BC7540" d:precision="string">347.782</Height>
+			<PlayerDriver d:type="bool">0</PlayerDriver>
+		</sDriverFrontEndDetails>
+		<sDriverFrontEndDetails d:id="951203992">
+			<ServiceName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">8576</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">a5763534-b872-404f-9a99-e888cbd74b78</Key>
+				</Localisation-cUserLocalisedString>
+			</ServiceName>
+			<LocoName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">EMD GP7 Pennsy</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">RS_TXT_GP7_PRR</Key>
+				</Localisation-cUserLocalisedString>
+			</LocoName>
+			<LocoBP>
+				<iBlueprintLibrary-cAbsoluteBlueprintID>
+					<BlueprintSetID>
+						<iBlueprintLibrary-cBlueprintSetID>
+							<Provider d:type="cDeltaString">RSC</Provider>
+							<Product d:type="cDeltaString">HorseshoeCurve</Product>
+						</iBlueprintLibrary-cBlueprintSetID>
+					</BlueprintSetID>
+					<BlueprintID d:type="cDeltaString">railvehicles\diesel\gp7\default\engine\gp7_default.xml</BlueprintID>
+				</iBlueprintLibrary-cAbsoluteBlueprintID>
+			</LocoBP>
+			<StartLocation>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString"></English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">b119b1e9-a8b5-42ef-b277-2dff42d857f3</Key>
+				</Localisation-cUserLocalisedString>
+			</StartLocation>
+			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
+			<LocoAuthor d:type="cDeltaString">RSC</LocoAuthor>
+			<FilePath d:type="cDeltaString">RSC\HorseshoeCurve\railvehicles\diesel\gp7\default\engine</FilePath>
+			<Longitude d:type="sFloat64" d:alt_encoding="62105839B49853C0" d:precision="string">-78.386</Longitude>
+			<Latitude d:type="sFloat64" d:alt_encoding="083D9B559F434440" d:precision="string">40.5283</Latitude>
+			<Height d:type="sFloat32" d:alt_encoding="000000C09D9B7540" d:precision="string">345.726</Height>
+			<PlayerDriver d:type="bool">1</PlayerDriver>
+		</sDriverFrontEndDetails>
+		<sDriverFrontEndDetails d:id="951203696">
+			<ServiceName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">8511</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">3742007b-c805-478b-bcf2-cc6a824eeb48</Key>
+				</Localisation-cUserLocalisedString>
+			</ServiceName>
+			<LocoName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">EMD GP7 Pennsy</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">RS_TXT_GP7_PRR</Key>
+				</Localisation-cUserLocalisedString>
+			</LocoName>
+			<LocoBP>
+				<iBlueprintLibrary-cAbsoluteBlueprintID>
+					<BlueprintSetID>
+						<iBlueprintLibrary-cBlueprintSetID>
+							<Provider d:type="cDeltaString">RSC</Provider>
+							<Product d:type="cDeltaString">HorseshoeCurve</Product>
+						</iBlueprintLibrary-cBlueprintSetID>
+					</BlueprintSetID>
+					<BlueprintID d:type="cDeltaString">railvehicles\diesel\gp7\default\engine\gp7_default.xml</BlueprintID>
+				</iBlueprintLibrary-cAbsoluteBlueprintID>
+			</LocoBP>
+			<StartLocation>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString"></English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">3243d3c5-eede-4e3e-954e-ef1cfa68cf1d</Key>
+				</Localisation-cUserLocalisedString>
+			</StartLocation>
+			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
+			<LocoAuthor d:type="cDeltaString">RSC</LocoAuthor>
+			<FilePath d:type="cDeltaString">RSC\HorseshoeCurve\railvehicles\diesel\gp7\default\engine</FilePath>
+			<Longitude d:type="sFloat64" d:alt_encoding="39454772F9A753C0" d:precision="string">-78.6246</Longitude>
+			<Latitude d:type="sFloat64" d:alt_encoding="5AF5B9DA8A354440" d:precision="string">40.4183</Latitude>
+			<Height d:type="sFloat32" d:alt_encoding="000000C0F7B28140" d:precision="string">566.371</Height>
+			<PlayerDriver d:type="bool">0</PlayerDriver>
+		</sDriverFrontEndDetails>
+		<sDriverFrontEndDetails d:id="951203400">
+			<ServiceName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">8560</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">00e51f2f-4b71-44a9-9e0b-10f7114197f2</Key>
+				</Localisation-cUserLocalisedString>
+			</ServiceName>
+			<LocoName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">EMD GP7 Pennsy</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">RS_TXT_GP7_PRR</Key>
+				</Localisation-cUserLocalisedString>
+			</LocoName>
+			<LocoBP>
+				<iBlueprintLibrary-cAbsoluteBlueprintID>
+					<BlueprintSetID>
+						<iBlueprintLibrary-cBlueprintSetID>
+							<Provider d:type="cDeltaString">RSC</Provider>
+							<Product d:type="cDeltaString">HorseshoeCurve</Product>
+						</iBlueprintLibrary-cBlueprintSetID>
+					</BlueprintSetID>
+					<BlueprintID d:type="cDeltaString">railvehicles\diesel\gp7\default\engine\gp7_default.xml</BlueprintID>
+				</iBlueprintLibrary-cAbsoluteBlueprintID>
+			</LocoBP>
+			<StartLocation>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString"></English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">b8ab7bb4-cf54-499c-82b8-d4ac5caadd63</Key>
+				</Localisation-cUserLocalisedString>
+			</StartLocation>
+			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
+			<LocoAuthor d:type="cDeltaString">RSC</LocoAuthor>
+			<FilePath d:type="cDeltaString">RSC\HorseshoeCurve\railvehicles\diesel\gp7\default\engine</FilePath>
+			<Longitude d:type="sFloat64" d:alt_encoding="FED478E926A153C0" d:precision="string">-78.518</Longitude>
+			<Latitude d:type="sFloat64" d:alt_encoding="3D9B559FAB3D4440" d:precision="string">40.4818</Latitude>
+			<Height d:type="sFloat32" d:alt_encoding="00000040E1038340" d:precision="string">608.485</Height>
+			<PlayerDriver d:type="bool">0</PlayerDriver>
+		</sDriverFrontEndDetails>
+		<sDriverFrontEndDetails d:id="951203104">
+			<ServiceName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">8504</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">f90f3af5-c450-4f1b-b9a0-165c3787ec22</Key>
+				</Localisation-cUserLocalisedString>
+			</ServiceName>
+			<LocoName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">EMD GP7 Pennsy</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">RS_TXT_GP7_PRR</Key>
+				</Localisation-cUserLocalisedString>
+			</LocoName>
+			<LocoBP>
+				<iBlueprintLibrary-cAbsoluteBlueprintID>
+					<BlueprintSetID>
+						<iBlueprintLibrary-cBlueprintSetID>
+							<Provider d:type="cDeltaString">RSC</Provider>
+							<Product d:type="cDeltaString">HorseshoeCurve</Product>
+						</iBlueprintLibrary-cBlueprintSetID>
+					</BlueprintSetID>
+					<BlueprintID d:type="cDeltaString">railvehicles\diesel\gp7\default\engine\gp7_default.xml</BlueprintID>
+				</iBlueprintLibrary-cAbsoluteBlueprintID>
+			</LocoBP>
+			<StartLocation>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString"></English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">cc4fca1d-61f3-4bea-a658-e252643c475e</Key>
+				</Localisation-cUserLocalisedString>
+			</StartLocation>
+			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
+			<LocoAuthor d:type="cDeltaString">RSC</LocoAuthor>
+			<FilePath d:type="cDeltaString">RSC\HorseshoeCurve\railvehicles\diesel\gp7\default\engine</FilePath>
+			<Longitude d:type="sFloat64" d:alt_encoding="38F8C264AA9C53C0" d:precision="string">-78.4479</Longitude>
+			<Latitude d:type="sFloat64" d:alt_encoding="1EA7E8482E3F4440" d:precision="string">40.4936</Latitude>
+			<Height d:type="sFloat32" d:alt_encoding="0000006012BB7A40" d:precision="string">427.692</Height>
+			<PlayerDriver d:type="bool">0</PlayerDriver>
+		</sDriverFrontEndDetails>
+		<sDriverFrontEndDetails d:id="951202808">
+			<ServiceName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">9810A</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">baf21538-78bf-4db8-88ed-c708442e6d71</Key>
+				</Localisation-cUserLocalisedString>
+			</ServiceName>
+			<LocoName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">EMD F7 Pennsy</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">RS_TXT_F7_PENN1</Key>
+				</Localisation-cUserLocalisedString>
+			</LocoName>
+			<LocoBP>
+				<iBlueprintLibrary-cAbsoluteBlueprintID>
+					<BlueprintSetID>
+						<iBlueprintLibrary-cBlueprintSetID>
+							<Provider d:type="cDeltaString">RSC</Provider>
+							<Product d:type="cDeltaString">HorseshoeCurve</Product>
+						</iBlueprintLibrary-cBlueprintSetID>
+					</BlueprintSetID>
+					<BlueprintID d:type="cDeltaString">railvehicles\diesel\f7\default\engine\f7a_default.xml</BlueprintID>
+				</iBlueprintLibrary-cAbsoluteBlueprintID>
+			</LocoBP>
+			<StartLocation>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString"></English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">99722893-77d9-4590-b151-b95e7e892dcd</Key>
+				</Localisation-cUserLocalisedString>
+			</StartLocation>
+			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
+			<LocoAuthor d:type="cDeltaString">RSC</LocoAuthor>
+			<FilePath d:type="cDeltaString">RSC\HorseshoeCurve\railvehicles\diesel\f7\default\engine</FilePath>
+			<Longitude d:type="sFloat64" d:alt_encoding="3C4ED1915C9E53C0" d:precision="string">-78.4744</Longitude>
+			<Latitude d:type="sFloat64" d:alt_encoding="BBB88D06F03E4440" d:precision="string">40.4917</Latitude>
+			<Height d:type="sFloat32" d:alt_encoding="000000C0F7D57F40" d:precision="string">509.373</Height>
+			<PlayerDriver d:type="bool">0</PlayerDriver>
+		</sDriverFrontEndDetails>
+		<sDriverFrontEndDetails d:id="951202512">
+			<ServiceName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">9640A</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">c4179585-934e-4a87-a599-9a26e15eaaa0</Key>
+				</Localisation-cUserLocalisedString>
+			</ServiceName>
+			<LocoName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">EMD F7 Pennsy</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">RS_TXT_F7_PENN1</Key>
+				</Localisation-cUserLocalisedString>
+			</LocoName>
+			<LocoBP>
+				<iBlueprintLibrary-cAbsoluteBlueprintID>
+					<BlueprintSetID>
+						<iBlueprintLibrary-cBlueprintSetID>
+							<Provider d:type="cDeltaString">RSC</Provider>
+							<Product d:type="cDeltaString">HorseshoeCurve</Product>
+						</iBlueprintLibrary-cBlueprintSetID>
+					</BlueprintSetID>
+					<BlueprintID d:type="cDeltaString">railvehicles\diesel\f7\default\engine\f7a_default.xml</BlueprintID>
+				</iBlueprintLibrary-cAbsoluteBlueprintID>
+			</LocoBP>
+			<StartLocation>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString"></English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">0fb936e5-71c5-4317-befe-92720cc93a28</Key>
+				</Localisation-cUserLocalisedString>
+			</StartLocation>
+			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
+			<LocoAuthor d:type="cDeltaString">RSC</LocoAuthor>
+			<FilePath d:type="cDeltaString">RSC\HorseshoeCurve\railvehicles\diesel\f7\default\engine</FilePath>
+			<Longitude d:type="sFloat64" d:alt_encoding="B7D100DE02A553C0" d:precision="string">-78.5783</Longitude>
+			<Latitude d:type="sFloat64" d:alt_encoding="4CA60A46253D4440" d:precision="string">40.4777</Latitude>
+			<Height d:type="sFloat32" d:alt_encoding="0000004062E68340" d:precision="string">636.798</Height>
+			<PlayerDriver d:type="bool">0</PlayerDriver>
+		</sDriverFrontEndDetails>
+		<sDriverFrontEndDetails d:id="951202216">
+			<ServiceName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">8553</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">fb70cc82-932f-4a23-bc08-ecb86993652a</Key>
+				</Localisation-cUserLocalisedString>
+			</ServiceName>
+			<LocoName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">EMD GP7 Pennsy</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">RS_TXT_GP7_PRR</Key>
+				</Localisation-cUserLocalisedString>
+			</LocoName>
+			<LocoBP>
+				<iBlueprintLibrary-cAbsoluteBlueprintID>
+					<BlueprintSetID>
+						<iBlueprintLibrary-cBlueprintSetID>
+							<Provider d:type="cDeltaString">RSC</Provider>
+							<Product d:type="cDeltaString">HorseshoeCurve</Product>
+						</iBlueprintLibrary-cBlueprintSetID>
+					</BlueprintSetID>
+					<BlueprintID d:type="cDeltaString">railvehicles\diesel\gp7\default\engine\gp7_default.xml</BlueprintID>
+				</iBlueprintLibrary-cAbsoluteBlueprintID>
+			</LocoBP>
+			<StartLocation>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString"></English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">5bb51086-e823-4d70-9b41-72f7f62e45a8</Key>
+				</Localisation-cUserLocalisedString>
+			</StartLocation>
+			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
+			<LocoAuthor d:type="cDeltaString">RSC</LocoAuthor>
+			<FilePath d:type="cDeltaString">RSC\HorseshoeCurve\railvehicles\diesel\gp7\default\engine</FilePath>
+			<Longitude d:type="sFloat64" d:alt_encoding="5BB1BFEC9E9853C0" d:precision="string">-78.3847</Longitude>
+			<Latitude d:type="sFloat64" d:alt_encoding="96438B6CE7434440" d:precision="string">40.5305</Latitude>
+			<Height d:type="sFloat32" d:alt_encoding="000000002D8C7540" d:precision="string">344.761</Height>
+			<PlayerDriver d:type="bool">0</PlayerDriver>
+		</sDriverFrontEndDetails>
+		<sDriverFrontEndDetails d:id="951201920">
+			<ServiceName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">8799</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">12aa0732-10d1-48ec-a5e5-bb6db48ad61e</Key>
+				</Localisation-cUserLocalisedString>
+			</ServiceName>
+			<LocoName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">EMD GP7 Pennsy</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">RS_TXT_GP7_PRR</Key>
+				</Localisation-cUserLocalisedString>
+			</LocoName>
+			<LocoBP>
+				<iBlueprintLibrary-cAbsoluteBlueprintID>
+					<BlueprintSetID>
+						<iBlueprintLibrary-cBlueprintSetID>
+							<Provider d:type="cDeltaString">RSC</Provider>
+							<Product d:type="cDeltaString">HorseshoeCurve</Product>
+						</iBlueprintLibrary-cBlueprintSetID>
+					</BlueprintSetID>
+					<BlueprintID d:type="cDeltaString">railvehicles\diesel\gp7\default\engine\gp7_default.xml</BlueprintID>
+				</iBlueprintLibrary-cAbsoluteBlueprintID>
+			</LocoBP>
+			<StartLocation>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">West Preferance 3</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">51ea2399-44d3-4587-b370-c5ff5a037a7a</Key>
+				</Localisation-cUserLocalisedString>
+			</StartLocation>
+			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
+			<LocoAuthor d:type="cDeltaString">RSC</LocoAuthor>
+			<FilePath d:type="cDeltaString">RSC\HorseshoeCurve\railvehicles\diesel\gp7\default\engine</FilePath>
+			<Longitude d:type="sFloat64" d:alt_encoding="7FFB3A70CE9853C0" d:precision="string">-78.3876</Longitude>
+			<Latitude d:type="sFloat64" d:alt_encoding="41F163CC5D434440" d:precision="string">40.5263</Latitude>
+			<Height d:type="sFloat32" d:alt_encoding="000000A045AA7540" d:precision="string">346.642</Height>
+			<PlayerDriver d:type="bool">0</PlayerDriver>
+		</sDriverFrontEndDetails>
+	</FrontEndDriverList>
+	<Gizmo>
+		<cOwnedEntity d:id="892605624">
+			<Component>
+				<cEditorSceneryRender d:id="1849767808">
+					<DetailLevel d:type="sInt32">10</DetailLevel>
+					<Global d:type="bool">0</Global>
+				</cEditorSceneryRender>
+				<cPosOri d:id="893341560">
+					<RFarMatrix>
+						<cFarMatrix d:id="893341572">
+							<Height d:type="sFloat32" d:alt_encoding="000000C074D17540" d:precision="string">349.091</Height>
+							<RXAxis d:numElements="4" d:elementType="sFloat32" d:precision="string">1.0000000 0.0000000 0.0000000 0.0000000</RXAxis>
+							<RYAxis d:numElements="4" d:elementType="sFloat32" d:precision="string">0.0000000 1.0000000 0.0000000 0.0000000</RYAxis>
+							<RZAxis d:numElements="4" d:elementType="sFloat32" d:precision="string">0.0000000 0.0000000 1.0000000 0.0000000</RZAxis>
+							<RFarPosition>
+								<cFarVector2 d:id="893341624">
+									<X>
+										<cFarCoordinate>
+											<RouteCoordinate>
+												<cRouteCoordinate>
+													<Distance d:type="sInt32">7</Distance>
+												</cRouteCoordinate>
+											</RouteCoordinate>
+											<TileCoordinate>
+												<cTileCoordinate>
+													<Distance d:type="sFloat32" d:alt_encoding="000000803DDA8F40" d:precision="string">1019.28</Distance>
+												</cTileCoordinate>
+											</TileCoordinate>
+										</cFarCoordinate>
+									</X>
+									<Z>
+										<cFarCoordinate>
+											<RouteCoordinate>
+												<cRouteCoordinate>
+													<Distance d:type="sInt32">3</Distance>
+												</cRouteCoordinate>
+											</RouteCoordinate>
+											<TileCoordinate>
+												<cTileCoordinate>
+													<Distance d:type="sFloat32" d:alt_encoding="00000020B2748240" d:precision="string">590.587</Distance>
+												</cTileCoordinate>
+											</TileCoordinate>
+										</cFarCoordinate>
+									</Z>
+								</cFarVector2>
+							</RFarPosition>
+						</cFarMatrix>
+					</RFarMatrix>
+				</cPosOri>
+				<cScriptComponent d:id="2088788368">
+					<DebugDisplay d:type="bool">1</DebugDisplay>
+					<StateName d:type="cDeltaString"></StateName>
+				</cScriptComponent>
+			</Component>
+			<BlueprintID>
+				<iBlueprintLibrary-cAbsoluteBlueprintID>
+					<BlueprintSetID>
+						<iBlueprintLibrary-cBlueprintSetID>
+							<Provider d:type="cDeltaString">Kuju</Provider>
+							<Product d:type="cDeltaString">RailSimulatorCore</Product>
+						</iBlueprintLibrary-cBlueprintSetID>
+					</BlueprintSetID>
+					<BlueprintID d:type="cDeltaString">editor\gizmo\scenario markers\career scenario marker.xml</BlueprintID>
+				</iBlueprintLibrary-cAbsoluteBlueprintID>
+			</BlueprintID>
+			<ReskinBlueprintID>
+				<iBlueprintLibrary-cAbsoluteBlueprintID>
+					<BlueprintSetID>
+						<iBlueprintLibrary-cBlueprintSetID>
+							<Provider d:type="cDeltaString"></Provider>
+							<Product d:type="cDeltaString"></Product>
+						</iBlueprintLibrary-cBlueprintSetID>
+					</BlueprintSetID>
+					<BlueprintID d:type="cDeltaString"></BlueprintID>
+				</iBlueprintLibrary-cAbsoluteBlueprintID>
+			</ReskinBlueprintID>
+			<Name d:type="cDeltaString">Career Scenario Marker</Name>
+			<EntityID>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5487496791522116266</e>
+						<e d:type="sUInt64">5197108094818538123</e>
+					</UUID>
+					<DevString d:type="cDeltaString">04c582aa-8142-4c27-8b52-f7da46d61f48</DevString>
+				</cGUID>
+			</EntityID>
+		</cOwnedEntity>
+	</Gizmo>
+	<SimulationTime d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</SimulationTime>
+	<AuthoredLanguage d:type="cDeltaString">en</AuthoredLanguage>
+	<Version d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</Version>
+	<Author d:type="cDeltaString">RSC</Author>
+	<DispatcherVersion d:type="cDeltaString">V1</DispatcherVersion>
+	<RBlueprintSetPreLoad/>
+	<NamedEntity>
+		<cScenarioProperties-cGuidToNameMapping d:id="-2122249184">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5097805325275351720</e>
+						<e d:type="sUInt64">8229842688369920687</e>
+					</UUID>
+					<DevString d:type="cDeltaString">1b21caa8-0aef-46bf-af8a-a24d52463672</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">start</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+	</NamedEntity>
+	<Condition/>
+	<DeferredEvent/>
+	<CheckedCondition/>
+	<CareerRules>
+		<cCareerRules d:id="223827552">
+			<Parent>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4819073896200581343</e>
+						<e d:type="sUInt64">13615697469949246897</e>
+					</UUID>
+					<DevString d:type="cDeltaString">1164b0df-ca2d-42e0-b17d-82b9b5acf4bc</DevString>
+				</cGUID>
+			</Parent>
+			<StartScore d:type="sInt32">0</StartScore>
+			<Version d:type="sInt32">1</Version>
+			<CodeVersion d:type="sInt32">3</CodeVersion>
+			<DLC d:type="sInt32">0</DLC>
+			<StatsGroup d:type="sInt32">0</StatsGroup>
+			<SpeedCheckIntervalSec d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</SpeedCheckIntervalSec>
+			<PointsPerMPHPerInterval d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</PointsPerMPHPerInterval>
+			<SpeedMultiplierThresholdSec d:type="sFloat32" d:alt_encoding="0000000000002E40" d:precision="string">15</SpeedMultiplierThresholdSec>
+			<SpeedMultiplier d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</SpeedMultiplier>
+			<ComfortCheckIntervalSec d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</ComfortCheckIntervalSec>
+			<PointsPerGPerInterval d:type="sFloat32" d:alt_encoding="0000000000005940" d:precision="string">100</PointsPerGPerInterval>
+			<ComfortForceLimitG d:type="sFloat32" d:alt_encoding="000000803D0AB73F" d:precision="string">0.09</ComfortForceLimitG>
+			<ComfortForceMaxScaleG d:type="sFloat32" d:alt_encoding="000000A09999B93F" d:precision="string">0.1</ComfortForceMaxScaleG>
+			<LateralComfortForceLimitG d:type="sFloat32" d:alt_encoding="000000403333C33F" d:precision="string">0.15</LateralComfortForceLimitG>
+			<LateralComfortForceMaxScaleG d:type="sFloat32" d:alt_encoding="000000803D0AC73F" d:precision="string">0.18</LateralComfortForceMaxScaleG>
+			<LatePointsPerSecond d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</LatePointsPerSecond>
+			<LateMuliplierPerMinute d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</LateMuliplierPerMinute>
+			<EarlyPointsAddedPerSecond d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</EarlyPointsAddedPerSecond>
+			<EarlyMultiplierPerMinute d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</EarlyMultiplierPerMinute>
+			<MissedStopPoints d:type="sFloat32" d:alt_encoding="0000000000006940" d:precision="string">200</MissedStopPoints>
+			<LeaveEarlyPoints d:type="sFloat32" d:alt_encoding="0000000000006940" d:precision="string">200</LeaveEarlyPoints>
+			<ArrivalPoints d:type="sFloat32" d:alt_encoding="0000000000006940" d:precision="string">200</ArrivalPoints>
+			<WheelslipPointsPerSec d:type="sFloat32" d:alt_encoding="0000000000001440" d:precision="string">5</WheelslipPointsPerSec>
+			<PointsPerOpError d:type="sFloat32" d:alt_encoding="0000000000004940" d:precision="string">50</PointsPerOpError>
+			<FuelUsageThreshold d:type="sFloat32" d:alt_encoding="00000000006AF840" d:precision="string">100000</FuelUsageThreshold>
+			<FuelPointsPerUnitUsed d:type="sFloat32" d:alt_encoding="0000000000002440" d:precision="string">10</FuelPointsPerUnitUsed>
+			<EmergencyBrakingPointsPerSec d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</EmergencyBrakingPointsPerSec>
+			<AccuracyBonus d:type="sFloat32" d:alt_encoding="0000000000004940" d:precision="string">50</AccuracyBonus>
+			<AccuracyPenalty d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</AccuracyPenalty>
+			<MaxAccuracyPenalty d:type="sFloat32" d:alt_encoding="0000000000C07240" d:precision="string">300</MaxAccuracyPenalty>
+			<MD5 d:type="cDeltaString"></MD5>
+		</cCareerRules>
+	</CareerRules>
+	<MD5 d:type="cDeltaString">BB452BD7B07A168841F7F0B618BDAE0E</MD5>
+	<MessageEvent/>
+	<SimpleControlsOnly d:type="bool">0</SimpleControlsOnly>
+	<ExpertControlsOnly d:type="bool">0</ExpertControlsOnly>
+	<LocksScenario>
+		<cGUID>
+			<UUID>
+				<e d:type="sUInt64">5743228983372107698</e>
+				<e d:type="sUInt64">3126704554229009581</e>
+			</UUID>
+			<DevString d:type="cDeltaString">d99f4fb2-0c54-4fb4-ad8c-6ae03949642b</DevString>
+		</cGUID>
+		<cGUID>
+			<UUID>
+				<e d:type="sUInt64">5362015024840424455</e>
+				<e d:type="sUInt64">4618740682652183951</e>
+			</UUID>
+			<DevString d:type="cDeltaString">83ebbc07-b441-4a69-8fed-20032e101940</DevString>
+		</cGUID>
+	</LocksScenario>
+</cScenarioProperties>
