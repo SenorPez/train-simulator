@@ -106,3 +106,10 @@ For the second, as it follows a `CLEAR` signal, it's obviously malfunctioning an
 **Solution:** The precision mechanic has been removed.
 
 **Version:** 2
+
+## 5 People Power
+**Problem:** The scoring for the scenario totals less than 1000 points. Only 900 total points are available. The timetable for the scenario is impossible to achieve without violating speed limits.
+
+**Solution:** The three scoring stops have been updated to a total of 1000 points. The timetable has been updated to be achievable wihtout any additional violations.
+
+**Version:** 2
