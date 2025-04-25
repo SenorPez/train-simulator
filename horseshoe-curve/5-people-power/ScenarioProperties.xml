@@ -984,7 +984,7 @@
 			<WheelslipPointsPerSec d:type="sFloat32" d:alt_encoding="0000000000001440" d:precision="string">5</WheelslipPointsPerSec>
 			<PointsPerOpError d:type="sFloat32" d:alt_encoding="0000000000004940" d:precision="string">50</PointsPerOpError>
 			<FuelUsageThreshold d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</FuelUsageThreshold>
-			<FuelPointsPerUnitUsed d:type="sFloat32" d:alt_encoding="0000000000002440" d:precision="string">10</FuelPointsPerUnitUsed>
+			<FuelPointsPerUnitUsed d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</FuelPointsPerUnitUsed>
 			<EmergencyBrakingPointsPerSec d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</EmergencyBrakingPointsPerSec>
 			<AccuracyBonus d:type="sFloat32" d:alt_encoding="0000000000004940" d:precision="string">50</AccuracyBonus>
 			<AccuracyPenalty d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</AccuracyPenalty>
@@ -997,7 +997,7 @@
 			<WhistleSignPoints d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</WhistleSignPoints>
 		</cCareerRules>
 	</CareerRules>
-	<MD5 d:type="cDeltaString">2A849650D0E31B75673453A947FF5ADB</MD5>
+	<MD5 d:type="cDeltaString">6639A1AE0C964DD5F6E89A8FFCCBB24C</MD5>
 	<MessageEvent/>
 	<SimpleControlsOnly d:type="bool">0</SimpleControlsOnly>
 	<ExpertControlsOnly d:type="bool">0</ExpertControlsOnly>
